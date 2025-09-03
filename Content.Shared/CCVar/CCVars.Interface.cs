@@ -47,7 +47,7 @@ public sealed partial class CCVars
 
     // Polonium
     public static readonly CVarDef<bool> ShowUUIDButton =
-        CVarDef.Create("ui.uuid_banner_enabled", true, CVar.SERVER);
+        CVarDef.Create("ui.uuid_banner_enabled", false, CVar.SERVER);
 
     /// <summary>
     /// If true, the admin overlay will be displayed in the old style (showing only "ANTAG")
