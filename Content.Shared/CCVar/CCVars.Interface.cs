@@ -45,10 +45,6 @@ public sealed partial class CCVars
     public static readonly CVarDef<bool> OutlineEnabled =
         CVarDef.Create("outline.enabled", true, CVar.CLIENTONLY);
 
-    // Polonium
-    public static readonly CVarDef<bool> ShowUUIDButton =
-        CVarDef.Create("ui.uuid_banner_enabled", false, CVar.SERVER | CVar.REPLICATED);
-
     /// <summary>
     /// If true, the admin overlay will be displayed in the old style (showing only "ANTAG")
     /// </summary>
