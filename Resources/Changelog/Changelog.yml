@@ -3943,3 +3943,11 @@ Entries:
   id: 8744
   time: '2025-09-13T11:45:40.0000000+00:00'
   url: https://github.com/polonium14/polonium-station/pull/62
+- author: Nikitosych
+  changes:
+  - message: "Naprawiono b\u0142\u0105d uniemo\u017Cliwiaj\u0105cy wpisywanie polskich\
+      \ znak\xF3w w imieniu postaci"
+    type: Fix
+  id: 8745
+  time: '2025-09-13T19:10:53.0000000+00:00'
+  url: https://github.com/polonium14/polonium-station/pull/66
