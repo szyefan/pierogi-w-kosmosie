@@ -3951,3 +3951,25 @@ Entries:
   id: 8745
   time: '2025-09-13T19:10:53.0000000+00:00'
   url: https://github.com/polonium14/polonium-station/pull/66
+- author: Nikitosych
+  changes:
+  - message: "Dodano pasek kondycji. Wci\u015Bnij \"Shift\", \u017Ceby sprintowa\u0107\
+      !"
+    type: Add
+  - message: "Od tego momentu na ko\u0144cu sprintu nikt nie upada twarz\u0105 na\
+      \ pod\u0142og\u0119"
+    type: Tweak
+  - message: "Wyczerpanie kondycji sprawia kr\xF3tkie spowolnienie"
+    type: Add
+  id: 8746
+  time: '2025-09-14T15:15:14.0000000+00:00'
+  url: https://github.com/polonium14/polonium-station/pull/69
+- author: Tofi
+  changes:
+  - message: 'Spolszczenie Tritu: Tritium -> Trit'
+    type: Tweak
+  - message: 'Spolszczenie Tritu: Tritium -> Trit'
+    type: Tweak
+  id: 8747
+  time: '2025-09-14T15:16:39.0000000+00:00'
+  url: https://github.com/polonium14/polonium-station/pull/67
