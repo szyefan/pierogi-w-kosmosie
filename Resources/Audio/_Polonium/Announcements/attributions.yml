@@ -1,24 +1,36 @@
 - files: ["aliens.ogg"]
   copyright: "Pinkscreen"
+  license: "CC-BY-NC-4.0"
 - files: ["announce.ogg"]
   copyright: "Pinkscreen"
+  license: "CC-BY-NC-4.0"
 - files: ["attention.ogg"]
   copyright: "Pinkscreen"
+  license: "CC-BY-NC-4.0"
 - files: ["intercept.ogg"]
   copyright: "Pinkscreen"
+  license: "CC-BY-NC-4.0"
 - files: ["ion_storm.ogg"]
   copyright: "Pinkscreen"
+  license: "CC-BY-NC-4.0"
 - files: ["meteors.ogg"]
   copyright: "Pinkscreen"
+  license: "CC-BY-NC-4.0"
 - files: ["power_off.ogg"]
   copyright: "Pinkscreen"
+  license: "CC-BY-NC-4.0"
 - files: ["power_on.ogg"]
   copyright: "Pinkscreen"
+  license: "CC-BY-NC-4.0"
 - files: ["shuttle_dock.ogg"]
   copyright: "Pinkscreen"
+  license: "CC-BY-NC-4.0"
 - files: ["shuttlecalled.ogg"]
   copyright: "Pinkscreen"
+  license: "CC-BY-NC-4.0"
 - files: ["shuttlerecalled.ogg"]
   copyright: "Pinkscreen"
+  license: "CC-BY-NC-4.0"
 - files: ["welcome.ogg"]
   copyright: "Pinkscreen"
+  license: "CC-BY-NC-4.0"
