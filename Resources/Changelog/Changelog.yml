@@ -4095,3 +4095,10 @@ Entries:
   id: 9014
   time: '2025-10-10T15:23:12.0000000+00:00'
   url: https://github.com/polonium14/polonium-station/pull/84
+- author: Tofi-Dev
+  changes:
+  - message: "Dodaje sprite trzymania do oran\u017Cady."
+    type: Fix
+  id: 9015
+  time: '2025-10-11T07:52:35.0000000+00:00'
+  url: https://github.com/polonium14/polonium-station/pull/88
