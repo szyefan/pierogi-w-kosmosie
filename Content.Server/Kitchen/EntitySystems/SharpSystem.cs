@@ -49,6 +49,7 @@ using Robust.Server.Containers;
 using Robust.Server.GameObjects;
 using Robust.Shared.Random;
 using Robust.Shared.Utility;
+using Content.Shared.IdentityManagement;
 
 namespace Content.Server.Kitchen.EntitySystems;
 
@@ -96,7 +97,7 @@ public sealed class SharpSystem : EntitySystem
 
         if (butcher.Type != ButcheringType.Knife && target != user)
         {
-            _popupSystem.PopupEntity(Loc.GetString("butcherable-different-tool", ("target", target)), knife, user);
+            _popupSystem.PopupEntity(Loc.GetString("butcherable-different-tool", ("user", user), ("target", target)), knife, user);
             return false;
         }
 
@@ -154,8 +155,10 @@ public sealed class SharpSystem : EntitySystem
         if (hasBody)
             popupType = PopupType.LargeCaution;
 
-        _popupSystem.PopupEntity(Loc.GetString("butcherable-knife-butchered-success", ("target", args.Args.Target.Value), ("knife", uid)),
-            popupEnt, args.Args.User, popupType);
+        _popupSystem.PopupEntity(Loc.GetString("butcherable-knife-butchered-success", ("user", Identity.Entity(args.User, EntityManager)), ("target", args.Args.Target.Value), ("knife", Identity.Entity(uid, EntityManager))),
+            popupEnt,
+            args.Args.User,
+            popupType);
 
         if (hasBody)
             _bodySystem.GibBody(args.Args.Target.Value, body: body);
@@ -200,7 +203,7 @@ public sealed class SharpSystem : EntitySystem
         else if (TryComp<MobStateComponent>(uid, out var state) && !_mobStateSystem.IsDead(uid, state))
         {
             disabled = true;
-            message = Loc.GetString("butcherable-mob-isnt-dead");
+            message = Loc.GetString("butcherable-mob-isnt-dead", ("target", uid));
         }
 
         // set the object doing the butchering to the item in the user's hands or to the user themselves
