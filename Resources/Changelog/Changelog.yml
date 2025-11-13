@@ -4152,3 +4152,12 @@ Entries:
   id: 9021
   time: '2025-11-13T01:23:14.0000000+00:00'
   url: https://github.com/polonium14/polonium-station/pull/100
+- author: Lukasz825700516
+  changes:
+  - message: "t\u0142umaczenie komunkiat\xF3w z spawania, efekt\xF3w spawania"
+    type: Add
+  - message: "t\u0142umaczenie narz\u0119dzi potrzebnych podczas (de)konstrukcji"
+    type: Add
+  id: 9022
+  time: '2025-11-13T01:36:15.0000000+00:00'
+  url: https://github.com/polonium14/polonium-station/pull/104
