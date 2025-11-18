@@ -1,11 +1,4 @@
 ﻿Entries:
-- author: Allen, lzk228
-  changes:
-  - message: Made Gun Safes a craftable object (10 steel, 5 lv cable, 10 plasteel)
-    type: Add
-  id: 7727
-  time: '2024-12-18T11:26:19.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/32694
 - author: MilenVolf
   changes:
   - message: Clicking on a buckled mob now unbuckles it, rather than hugging/petting
@@ -3928,3 +3921,10 @@
   id: 9034
   time: '2025-11-18T22:19:05.0000000+00:00'
   url: https://github.com/polonium14/polonium-station/pull/118
+- author: Lukasz825700516
+  changes:
+  - message: "t\u0142umaczenie wiadomo\u015Bci od dodatkowych informacji"
+    type: Add
+  id: 9035
+  time: '2025-11-18T22:24:37.0000000+00:00'
+  url: https://github.com/polonium14/polonium-station/pull/121
