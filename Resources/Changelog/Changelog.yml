@@ -1,11 +1,4 @@
 ﻿Entries:
-- author: JustinWinningham
-  changes:
-  - message: Wood walls no longer require girders and are built from barricades instead.
-    type: Tweak
-  id: 7745
-  time: '2024-12-21T03:28:46.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/33902
 - author: ElectroJr
   changes:
   - message: Toolshed console commands have been reworked. Some old commands may no
@@ -3921,3 +3914,11 @@
   id: 9052
   time: '2025-11-21T16:03:11.0000000+00:00'
   url: https://github.com/polonium14/polonium-station/pull/301
+- author: Nikitapl
+  changes:
+  - message: "Dodano mo\u017Cliwo\u015B\u0107 przed\u0142u\u017Cenia rundy po zwyci\u0119\
+      stwie rewolucji"
+    type: Add
+  id: 9053
+  time: '2025-11-22T15:37:58.0000000+00:00'
+  url: https://github.com/polonium14/polonium-station/pull/307
