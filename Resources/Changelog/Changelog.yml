@@ -1,11 +1,4 @@
 ﻿Entries:
-- author: amatwiedle
-  changes:
-  - message: Borgs can no longer drink from tools provided by modules.
-    type: Fix
-  id: 7748
-  time: '2024-12-23T19:54:18.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/32964
 - author: Booblesnoot42
   changes:
   - message: On Cog, an unnecessary protolathe was removed from cargo.
@@ -3921,3 +3914,12 @@
   id: 9055
   time: '2025-11-22T16:18:58.0000000+00:00'
   url: https://github.com/polonium14/polonium-station/pull/308
+- author: Nikitapl
+  changes:
+  - message: Poprawiono okienko Space Villain Arcade
+    type: Fix
+  - message: Poprawiono okienko disposal unit
+    type: Fix
+  id: 9056
+  time: '2025-11-22T18:37:08.0000000+00:00'
+  url: https://github.com/polonium14/polonium-station/pull/311
