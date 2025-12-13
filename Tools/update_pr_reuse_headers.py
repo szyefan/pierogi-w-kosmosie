@@ -549,6 +549,8 @@ def process_file(file_path, default_license_id, pr_base_sha=None, pr_head_sha=No
     return True
 
 def main():
+    print("Script is running...")
+    
     parser = argparse.ArgumentParser(description="Update REUSE headers for PR files")
     parser.add_argument("--files-added", nargs="*", default=[], help="List of added files")
     parser.add_argument("--files-modified", nargs="*", default=[], help="List of modified files")
