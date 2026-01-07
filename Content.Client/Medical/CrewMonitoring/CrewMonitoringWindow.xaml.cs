@@ -29,6 +29,7 @@
 // SPDX-FileCopyrightText: 2025 taydeo <td12233a@gmail.com>
 // SPDX-FileCopyrightText: 2026 GnarpGnarp <157513875+GnarpGnarp@users.noreply.github.com>
 // SPDX-FileCopyrightText: 2026 GnarpGnarp <S00254005@atu.ie>
+// SPDX-FileCopyrightText: 2026 Polonium-bot <admin@ss14.pl>
 //
 // SPDX-License-Identifier: MIT
 

@@ -4,6 +4,7 @@
 // SPDX-FileCopyrightText: 2025 Princess Cheeseballs <66055347+princess-cheeseballs@users.noreply.github.com>
 // SPDX-FileCopyrightText: 2025 Princess Cheeseballs <66055347+pronana@users.noreply.github.com>
 // SPDX-FileCopyrightText: 2025 Princess-Cheeseballs <https://github.com/Princess-Cheeseballs>
+// SPDX-FileCopyrightText: 2026 Polonium-bot <admin@ss14.pl>
 //
 // SPDX-License-Identifier: MIT
 
