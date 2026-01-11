@@ -54,6 +54,7 @@
 # SPDX-FileCopyrightText: 2024 metalgearsloth <comedian_vs_clown@hotmail.com>
 # SPDX-FileCopyrightText: 2024 themias <89101928+themias@users.noreply.github.com>
 # SPDX-FileCopyrightText: 2025 McBosserson <148172569+McBosserson@users.noreply.github.com>
+# SPDX-FileCopyrightText: 2025 Nikita (Nick) <174215049+nikitosych@users.noreply.github.com>
 # SPDX-FileCopyrightText: 2025 Nikovnik <116634167+nkokic@users.noreply.github.com>
 # SPDX-FileCopyrightText: 2025 QueerCats <jansencheng3@gmail.com>
 # SPDX-FileCopyrightText: 2025 Tay <td12233a@gmail.com>
@@ -64,6 +65,8 @@
 # SPDX-FileCopyrightText: 2025 pa.pecherskij <pa.pecherskij@interfax.ru>
 # SPDX-FileCopyrightText: 2025 starch <starchpersonal@gmail.com>
 # SPDX-FileCopyrightText: 2025 taydeo <td12233a@gmail.com>
+# SPDX-FileCopyrightText: 2026 Damian Zieliński <zientasek.pl@gmail.com>
+# SPDX-FileCopyrightText: 2026 Polonium-bot <admin@ss14.pl>
 #
 # SPDX-License-Identifier: AGPL-3.0-or-later AND MIT
 
@@ -107,6 +110,17 @@
     - WhitelistChameleon
     - SecurityHelmet
 
+- type: entity
+  parent: ClothingHeadHelmetBasic
+  id: ClothingHeadHelmetSecurityMedic
+  name: security medic helmet
+  description: A standard issue combat helmet for security medics. Has decent tensile strength and armor. Keep your head down.
+  components:
+  - type: Sprite
+    sprite: Clothing/Head/Helmets/security_medic.rsi
+  - type: Clothing
+    sprite: Clothing/Head/Helmets/security_medic.rsi
+
 #Mercenary Helmet
 - type: entity
   parent: [ ClothingHeadHelmetBase, BaseSecurityCargoContraband ] # Funky Edit
@@ -118,7 +132,7 @@
     sprite: Clothing/Head/Helmets/merc_helmet.rsi
   - type: Clothing
     sprite: Clothing/Head/Helmets/merc_helmet.rsi
-  - type: Armor # Helmet meant more for salvage, but with recuded pirece resist as that is something they dont deal wiht very often. 
+  - type: Armor # Helmet meant more for salvage, but with recuded pirece resist as that is something they dont deal wiht very often.
     modifiers:
       coefficients:
         Blunt: 0.85

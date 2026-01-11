@@ -46,6 +46,9 @@
 # SPDX-FileCopyrightText: 2025 pa.pecherskij <pa.pecherskij@interfax.ru>
 # SPDX-FileCopyrightText: 2025 slarticodefast <161409025+slarticodefast@users.noreply.github.com>
 # SPDX-FileCopyrightText: 2025 taydeo <td12233a@gmail.com>
+# SPDX-FileCopyrightText: 2026 Damian Zieliński <zientasek.pl@gmail.com>
+# SPDX-FileCopyrightText: 2026 Nikita (Nick) <174215049+nikitosych@users.noreply.github.com>
+# SPDX-FileCopyrightText: 2026 Polonium-bot <admin@ss14.pl>
 #
 # SPDX-License-Identifier: AGPL-3.0-or-later AND MIT
 
@@ -97,6 +100,17 @@
     sprite: Clothing/OuterClothing/Armor/security_slim.rsi
   - type: Clothing
     sprite: Clothing/OuterClothing/Armor/security_slim.rsi
+
+- type: entity
+  parent: ClothingOuterArmorBasic
+  id: ClothingOuterVestArmorMedSec
+  name: security medic armor vest
+  description: A security medic's armor vest, with little pockets for little things.
+  components:
+  - type: Sprite
+    sprite: Clothing/OuterClothing/Armor/armor_sec_med.rsi
+  - type: Clothing
+    sprite: Clothing/OuterClothing/Armor/armor_sec_med.rsi
 
 - type: entity
   parent: [ClothingOuterBaseLarge, AllowBackStorageClothingCombat, BaseSecurityContraband]
