@@ -1,11 +1,4 @@
 ﻿Entries:
-- author: SlimSlam
-  changes:
-  - message: News Room
-    type: Add
-  id: 7802
-  time: '2025-01-12T23:32:51.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/34408
 - author: Deerstop
   changes:
   - message: Improved the readability of the manual valve sprite.
@@ -4036,3 +4029,10 @@
   id: 9109
   time: '2026-01-14T10:44:32.0000000+00:00'
   url: https://github.com/polonium14/polonium-station/pull/383
+- author: Zintex
+  changes:
+  - message: "Poprawiona \u015Bcie\u017Cka do muzyki lobby alien kids"
+    type: Fix
+  id: 9110
+  time: '2026-01-14T15:32:01.0000000+00:00'
+  url: https://github.com/polonium14/polonium-station/pull/388
