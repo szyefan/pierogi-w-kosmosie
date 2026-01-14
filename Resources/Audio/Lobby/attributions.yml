@@ -17,6 +17,8 @@
 # SPDX-FileCopyrightText: 2025 Tay <td12233a@gmail.com>
 # SPDX-FileCopyrightText: 2025 taydeo <td12233a@gmail.com>
 # SPDX-FileCopyrightText: 2025 vectorassembly <vectorassembly@icloud.com>
+# SPDX-FileCopyrightText: 2026 Damian Zieliński <zientasek.pl@gmail.com>
+# SPDX-FileCopyrightText: 2026 Polonium-bot <admin@ss14.pl>
 #
 # SPDX-License-Identifier: AGPL-3.0-or-later AND MIT
 
@@ -173,8 +175,197 @@
   license: "CC-BY-NC-SA-4.0"
   copyright: "D.A.G.D by vectorassembly, a funky exclusive"
   source: "https://vectorassembly.org"
-  
+
 - files: ["meltdown.ogg"]
   license: "CC-BY-NC-SA-4.0"
   copyright: "M for Meltdown by vectorassembly"
   source: "https://vectorassembly.org"
+
+# Goobstation
+- files: ["horn.ogg"]
+  license: "CC-BY-NC-SA-3.0"
+  copyright: "Honk! by SlendyMawn, Remastered by Scruq"
+  source: "https://www.youtube.com/watch?v=ujY7djCJVwQ"
+
+- files: ["marhaba.ogg"]
+  license: "CC-BY-NC-SA-3.0"
+  copyright: "Marhaba by Ian Alex Mac. Converted from MP3 to OGG."
+  source: "https://freemusicarchive.org/music/Ian_Alex_Mac/Cues/Marhaba"
+
+- files: ["monument.ogg"]
+  license: "CC-BY-NC-SA-3.0"
+  copyright: "Monument by Six Umbrellas."
+  source: "https://sixumbrellas.bandcamp.com/album/the-psychedelic-and"
+
+- files: ["the_future_soon.ogg"]
+  license: "CC-BY-NC-SA-3.0"
+  copyright: "The Future Soon by Jonathan Coulton"
+  source: "https://www.youtube.com/watch?v=l5PEz3kGbp4"
+
+# Delta-V
+- files: ["434387_Time_Lapse_of_Clouds.ogg"]
+  license: "CC-BY-3.0"
+  copyright: "==(Time Lapse of Clouds)== by Buoy"
+  source: "https://www.newgrounds.com/audio/listen/434387"
+
+- files: ["a_different_reality_lagoona_remix.xm.ogg"]
+  license: "CC-BY-4.0"
+  copyright: "A.D.R (Lagoona rmx) by Andreas Viklund"
+  source: "https://modarchive.org/index.php?request=view_by_moduleid&query=134786"
+
+- files: ["autumnal_equinox.xm.ogg"]
+  license: "CC-BY-NC-4.0"
+  copyright: "Autumnal Equinox by lemonade"
+  source: "https://modarchive.org/index.php?request=view_by_moduleid&query=143993"
+
+- files: ["aggravated.it.ogg"]
+  license: "CC-BY-NC-SA-4.0"
+  copyright: "MEL -Aggravated Assault by melcom"
+  source: "https://modarchive.org/index.php?request=view_by_moduleid&query=176234"
+
+- files: ["Black_Heat.ogg"]
+  license: "CC-BY-SA-3.0"
+  copyright: "Black Heat by Ross Bugden, converted from WAV to OGG"
+  source: "https://soundcloud.com/rossbugden/intense-and-upbeat-electronic-trailer-music-black-heat-copyright-and-royalty-free"
+
+- files: ["drozerix_-_alone.xm.ogg"]
+  license: "Custom"
+  copyright: "Alone by Drozerix"
+  source: "https://modarchive.org/index.php?request=view_by_moduleid&query=199968"
+
+- files: ["drozerix_-_leisurely_voice.xm.ogg"]
+  license: "Custom"
+  copyright: "Leisurely Voice by Drozerix"
+  source: "https://modarchive.org/index.php?request=view_by_moduleid&query=183837"
+
+- files: ["Get_It_Done.ogg"]
+  license: "CC0-1.0"
+  copyright: "Get It Done by A-Guy, converted from mp3 to OGG"
+  source: "https://github.com/A-Guy173/Music/blob/main/getitdone.mp3"
+
+- files: ["hackers.ogg"]
+  license: "CC-BY-NC-SA-3.0"
+  copyright: "Hackers by Karl Casey @ White Bat Audio"
+  source: "https://www.youtube.com/watch?v=k8nHWwO1U2Q"
+
+- files: ["melcom-cyberpunk.it.ogg"]
+  license: "CC-BY-NC-SA-4.0"
+  copyright: "MEL -Cyberpunk by melcom"
+  source: "https://modarchive.org/index.php?request=view_by_moduleid&query=184215"
+
+- files: ["midori_-_conundrum_final.it.ogg"]
+  license: "CC-BY-NC-SA-4.0"
+  copyright: "Conundrum by Midori Mizuno"
+  source: "https://modarchive.org/index.php?request=view_by_moduleid&query=181705"
+
+- files: ["Patricia_Taxxon_-_Minute.ogg"]
+  license: "CC-BY-SA-3.0"
+  copyright: "Minute by Patricia Taxxon off the album 'Aeroplane'"
+  source: "https://patriciataxxon.bandcamp.com/track/minute"
+
+- files: ["psirius_-_nights_of_orion.xm.ogg"]
+  license: "CC-BY-NC-SA-4.0"
+  copyright: "Nights of Orion by Psirius"
+  source: "https://modarchive.org/index.php?request=view_by_moduleid&query=184962"
+
+- files: ["psirius_-_nymphs_of_the_forest.mptm.ogg"]
+  license: "CC-BY-NC-SA-4.0"
+  copyright: "Nymphs of the forest by Psirius"
+  source: "https://modarchive.org/index.php?request=view_by_moduleid&query=185545"
+
+- files: ["superposition.ogg"]
+  license: "CC-BY-NC-3.0"
+  copyright: "Superposition by Amie Waters"
+  source: "https://amiewaters.bandcamp.com/track/superposition-2"
+
+- files: ["thestation.ogg"]
+  license: "CC0-1.0"
+  copyright: "The Station by A-Guy, converted from mp3 to OGG"
+  source: "https://github.com/A-Guy173/Music/blob/main/thestation.mp3"
+
+- files: ["Undefined_Theory.ogg"]
+  license: "CC0-1.0"
+  copyright: "Undefined Theory by A-Guy, converted to OGG"
+  source: "https://www.youtube.com/watch?v=FIOs2t84MKo"
+
+# 🌟Starlight🌟
+- files: ["cosmonaut.ogg"]
+  license: "CC-BY-ND-4.0"
+  copyright: "Cosmonaut by Artifyber, for InanimateIJK & their associated projects."
+  source: "https://soundcloud.com/r3dz3r/cosmonaut"
+
+- files: ["chasing-cosmic-dreams.ogg"]
+  license: "CC-BY-NC-SA-3.0"
+  copyright: "Created by Darkrell in Udio v1.5"
+  source: "https://github.com/ss14Starlight/space-station-14"
+
+- files: ["breacher.ogg"]
+  license: "CC-BY-ND-4.0"
+  copyright: "Breacher by Artifyber, for InanimateIJK & their associated projects."
+  source: "https://soundcloud.com/r3dz3r/breacher"
+
+- files: ["Resistance.ogg"]
+  license: "CC-BY-ND-4.0"
+  copyright: "Resistance by Artifyber, for InanimateIJK & their associated projects."
+  source: "https://soundcloud.com/r3dz3r/resistance"
+
+- files: ["echoes-in-the-deep.ogg"]
+  license: "CC-BY-ND-4.0"
+  copyright: "Echoes in the Deep by nightyshade @ Trieste Port Discord"
+  source: "https://discord.com/channels/1253266481093808140/1307494081366069331/1370530213653385286"
+
+- files: ["timefracture.ogg"]
+  license: "CC-BY-3.0"
+  copyright: "Timefracture by Bad History, shortened by InanimateIJK."
+  source: "https://www.youtube.com/watch?v=INBbCL335NE"
+
+- files: ["762_treastise.ogg"]
+  license: "CC-BY-3.0"
+  copyright: "762 Treastise by Haplogynae, permission given to STARLIGHT."
+  source: "https://soundcloud.com/haplogynae/mikazu-762-treatise"
+
+- files: ["hull_rupture.ogg"]
+  license: "CC-BY-3.0"
+  copyright: "Hull Rupture by Haplogynae, permission given to STARLIGHT."
+  source: "https://soundcloud.com/haplogynae/baystation-12-hull-rupture"
+
+- files: ["Liberation.ogg"]
+  license: "CC-BY-3.0"
+  copyright: "Bolgarich, allowed if referred as the creator to the piece. Slowed version of original."
+  source: "https://www.youtube.com/watch?v=R9kPrVKzFCw"
+
+# RMC
+- files: ["Super_Nova_In_The_Catacombs.ogg"]
+  license: "CC-BY-SA-3.0"
+  copyright: "Super Nova In The Catacombs by WigWoo1 on youtube. https://www.youtube.com/@WigWoo1"
+  source: "https://www.youtube.com/watch?v=ly3-rhDTeOU&ab_channel=WigWoo1"
+
+- files: ["shadowinthesilvernebula.ogg"]
+  license: "CC-BY-SA-4.0"
+  copyright: "Shadow in the Silver Nebula by Mendax on archive.org"
+  source: "https://archive.org/details/shadowinthesilvernebula"
+
+- files: ["enemy_is_unknown.ogg"]
+  license: "CC-BY-4.0"
+  copyright: "Nighty"
+  source: "https://discord.com/channels/1168210010233376858/1168217282988757116/1294247035158925314"
+
+- files: ["the_fallen_queen.ogg"]
+  license: "CC-BY-4.0"
+  copyright: "Bolgarich"
+  source: "https://discord.com/channels/1168210010233376858/1168217282988757116/1292488660150915124"
+
+- files: ["Dire_Situation.ogg"]
+  license: "Custom"
+  copyright: "Dire Situation by GoodShowOldChap (aka ahtelyahwat, aka Rick O'Shea) licensed as CC0-1.0, made with sampled audio: Generative glitch radio loop by Rmshh -- https://freesound.org/s/744013/ -- License: Attribution 4.0"
+  source: "https://discord.com/channels/1168210010233376858/1168217282988757116/1299948750286098533"
+
+- files: ["Time_Is_Running_Out.ogg"]
+  license: "CC-BY-4.0"
+  copyright: "Made by Nighty"
+  source: "https://discord.com/channels/1168210010233376858/1168217282988757116/1303410400095633449"
+
+- files: ["Dropzone.ogg"]
+  license: "CC-BY-SA-4.0"
+  copyright: "Made by Qwesta"
+  source: "https://discord.com/channels/1168210010233376858/1168217282988757116/1311095405647495401"
