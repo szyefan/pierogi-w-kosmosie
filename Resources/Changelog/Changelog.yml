@@ -1,11 +1,4 @@
 ﻿Entries:
-- author: Deerstop
-  changes:
-  - message: Improved the readability of the manual valve sprite.
-    type: Tweak
-  id: 7803
-  time: '2025-01-13T07:07:30.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/34378
 - author: JustinWinningham
   changes:
   - message: Anomalies no longer block players or APES (or other objects) from passing
@@ -4036,3 +4029,10 @@
   id: 9110
   time: '2026-01-14T15:32:01.0000000+00:00'
   url: https://github.com/polonium14/polonium-station/pull/388
+- author: Zintex
+  changes:
+  - message: Dodano Cluster i Saltern do rotacji.
+    type: Add
+  id: 9111
+  time: '2026-01-14T15:43:05.0000000+00:00'
+  url: https://github.com/polonium14/polonium-station/pull/382
