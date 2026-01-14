@@ -1,11 +1,4 @@
 ﻿Entries:
-- author: Kontinentaldrift
-  changes:
-  - message: EOD locker always spawns with tools.
-    type: Tweak
-  id: 7801
-  time: '2025-01-12T16:38:41.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/34394
 - author: SlimSlam
   changes:
   - message: News Room
@@ -4031,3 +4024,15 @@
   id: 9108
   time: '2026-01-14T10:39:03.0000000+00:00'
   url: https://github.com/polonium14/polonium-station/pull/384
+- author: Zintex
+  changes:
+  - message: "Medyk Wi\u0119zienny dodany do map: amber, cork, divide, eden, elkridge,\
+      \ gax, glacier, microstation, olympus."
+    type: Add
+  - message: "Szafka Medyka Wi\u0119ziennego dodana do packed i roid."
+    type: Add
+  - message: "Naprawiony spawn Medyka Wi\u0119ziennego na saltern."
+    type: Fix
+  id: 9109
+  time: '2026-01-14T10:44:32.0000000+00:00'
+  url: https://github.com/polonium14/polonium-station/pull/383
