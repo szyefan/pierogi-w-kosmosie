@@ -1,11 +1,4 @@
 ﻿Entries:
-- author: Alpaccalypse
-  changes:
-  - message: Smite soda vending machines have been added to the game.
-    type: Add
-  id: 7812
-  time: '2025-01-15T18:20:01.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/34420
 - author: kosticia
   changes:
   - message: Bedsheets now can be printed on uniform printer
@@ -4042,3 +4035,12 @@
   id: 9119
   time: '2026-01-17T18:09:31.0000000+00:00'
   url: https://github.com/polonium14/polonium-station/pull/398
+- author: Nikitapl
+  changes:
+  - message: "Przet\u0142umaczono og\u0142oszenia wydarze\u0144 na stacji"
+    type: Tweak
+  - message: "Przywr\xF3cono polskie d\u017Awi\u0119ki niekt\xF3rych wydarze\u0144"
+    type: Fix
+  id: 9120
+  time: '2026-01-17T18:49:39.0000000+00:00'
+  url: https://github.com/polonium14/polonium-station/pull/399
