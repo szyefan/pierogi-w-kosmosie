@@ -1,11 +1,4 @@
 ﻿Entries:
-- author: southbridge-fur
-  changes:
-  - message: The Pride-O-Mat vending machine has been ported to upstream.
-    type: Add
-  id: 7807
-  time: '2025-01-13T18:49:02.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/34412
 - author: Killerqu00
   changes:
   - message: Pet carriers can now be crafted.
@@ -4038,3 +4031,12 @@
   id: 9114
   time: '2026-01-16T17:56:07.0000000+00:00'
   url: https://github.com/polonium14/polonium-station/pull/390
+- author: Zintex
+  changes:
+  - message: "Pomocnik techniczny teraz wymaga 1h og\xF3lnego czasu gry"
+    type: Tweak
+  - message: "Zmieniony wym\xF3g dla Brigmeda z 1h w civilian na 1h og\xF3lnego."
+    type: Tweak
+  id: 9115
+  time: '2026-01-17T16:30:46.0000000+00:00'
+  url: https://github.com/polonium14/polonium-station/pull/396
