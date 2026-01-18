@@ -1,11 +1,4 @@
 ﻿Entries:
-- author: TheShuEd
-  changes:
-  - message: Christmas anomaly removed
-    type: Remove
-  id: 7814
-  time: '2025-01-15T20:22:32.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/34053
 - author: Kickguy223
   changes:
   - message: Puddles will now correctly evaporate
@@ -4048,3 +4041,11 @@
   id: 9121
   time: '2026-01-18T19:57:11.0000000+00:00'
   url: https://github.com/polonium14/polonium-station/pull/400
+- author: Nikitapl
+  changes:
+  - message: "Nowy wr\xF3g na stacji - Cowiek Maupa! Uwa\u017Cajcie na szafy w tunelach\
+      \ technicznych..."
+    type: Add
+  id: 9122
+  time: '2026-01-18T20:31:04.0000000+00:00'
+  url: https://github.com/polonium14/polonium-station/pull/403
