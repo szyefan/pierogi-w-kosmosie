@@ -11,6 +11,8 @@
 // SPDX-FileCopyrightText: 2024 Tadeo <td12233a@gmail.com>
 // SPDX-FileCopyrightText: 2024 metalgearsloth <31366439+metalgearsloth@users.noreply.github.com>
 // SPDX-FileCopyrightText: 2025 taydeo <td12233a@gmail.com>
+// SPDX-FileCopyrightText: 2026 Damian Zieliński <zientasek.pl@gmail.com>
+// SPDX-FileCopyrightText: 2026 Polonium-bot <admin@ss14.pl>
 //
 // SPDX-License-Identifier: MIT
 
@@ -42,6 +44,7 @@ public sealed class SpawnPointSystem : EntitySystem
         // TODO: Cache all this if it ends up important.
         var points = EntityQueryEnumerator<SpawnPointComponent, TransformComponent>();
         var possiblePositions = new List<EntityCoordinates>();
+        var fallbackPositions = new List<EntityCoordinates>();
 
         while ( points.MoveNext(out var uid, out var spawnPoint, out var xform))
         {
@@ -59,6 +62,18 @@ public sealed class SpawnPointSystem : EntitySystem
             {
                 possiblePositions.Add(xform.Coordinates);
             }
+
+            // Save late join positions during roundstart as fallback positions, in case no job positions were found. - Polonium
+            if (_gameTicker.RunLevel != GameRunLevel.InRound && spawnPoint.SpawnType == SpawnPointType.LateJoin)
+            {
+                fallbackPositions.Add(xform.Coordinates);
+            }
+        }
+
+        // If no roundstart spawns found, spawn in fallback, late join locations - Polonium
+        if (_gameTicker.RunLevel != GameRunLevel.InRound && possiblePositions.Count == 0)
+        {
+            possiblePositions = fallbackPositions;
         }
 
         if (possiblePositions.Count == 0)
