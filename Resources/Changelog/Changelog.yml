@@ -1,11 +1,4 @@
 ﻿Entries:
-- author: ArtisticRoomba, miamioni
-  changes:
-  - message: The Space Lizard plushie can now be worn on top of your head.
-    type: Add
-  id: 7824
-  time: '2025-01-18T09:02:40.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/33809
 - author: Spacemann
   changes:
   - message: Station cameras can now be destroyed by bullets.
@@ -4058,3 +4051,14 @@
   id: 9131
   time: '2026-01-23T10:02:47.0000000+00:00'
   url: https://github.com/polonium14/polonium-station/pull/401
+- author: Nikitapl
+  changes:
+  - message: "Przet\u0142umaczono anomalie"
+    type: Tweak
+  - message: "Przet\u0142umaczono r\u0119czny sprz\u0119t RnD"
+    type: Tweak
+  - message: "Drobne poprawki w istniej\u0105cych t\u0142umaczeniach RnD"
+    type: Fix
+  id: 9132
+  time: '2026-01-23T11:14:53.0000000+00:00'
+  url: https://github.com/polonium14/polonium-station/pull/412
