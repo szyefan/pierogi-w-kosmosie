@@ -1,11 +1,4 @@
 ﻿Entries:
-- author: Spacemann
-  changes:
-  - message: Station cameras can now be destroyed by bullets.
-    type: Add
-  id: 7825
-  time: '2025-01-18T13:41:29.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/34500
 - author: Winkarst-cpu
   changes:
   - message: Some masks can now be seen when pulled down.
@@ -4062,3 +4055,12 @@
   id: 9132
   time: '2026-01-23T11:14:53.0000000+00:00'
   url: https://github.com/polonium14/polonium-station/pull/412
+- author: Nikitapl
+  changes:
+  - message: "Przet\u0142umaczono cz\u0119\u015Bci cia\u0142a"
+    type: Tweak
+  - message: "Przet\u0142umaczono kroki i akcje chirurgiczne"
+    type: Tweak
+  id: 9133
+  time: '2026-01-23T11:47:52.0000000+00:00'
+  url: https://github.com/polonium14/polonium-station/pull/413
