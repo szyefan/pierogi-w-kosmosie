@@ -1,2 +1,2 @@
-ent-CaptainDrobe = CaptainDrobe
-    .desc = Stylish uniform, for a strong leader!
+ent-CaptainDrobe = KapitanoSzafa
+    .desc = Stylowy mundur dla silnego lidera!
