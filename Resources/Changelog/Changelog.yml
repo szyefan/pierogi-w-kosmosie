@@ -1,18 +1,4 @@
 ﻿Entries:
-- author: Winkarst-cpu
-  changes:
-  - message: Some masks can now be seen when pulled down.
-    type: Add
-  id: 7826
-  time: '2025-01-18T16:58:52.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/33451
-- author: Minemoder
-  changes:
-  - message: The chemical locker now has a 10u vial of plasma.
-    type: Add
-  id: 7827
-  time: '2025-01-18T18:27:46.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/33871
 - author: Nox38
   changes:
   - message: Seclites now start with a medium-capacity power cell.
@@ -4064,3 +4050,30 @@
   id: 9133
   time: '2026-01-23T11:47:52.0000000+00:00'
   url: https://github.com/polonium14/polonium-station/pull/413
+- author: Nikitapl
+  changes:
+  - message: "Zatwierdzono zmian\u0119 nazwy dzia\u0142u \"RnD\" (\"Research and Development\"\
+      ) na \"B+R\" (\"Dzia\u0142 Bada\u0144 i Rozwoju\")"
+    type: Tweak
+  - message: "Zmieniono nazw\u0119 zawodu \"Szef Personelu\" na \"Kierownik Personelu\""
+    type: Tweak
+  - message: "Zmieniono nazw\u0119 zawodu \"In\u017Cynier Naczelny\" na \"Naczelny\
+      \ In\u017Cynier\""
+    type: Tweak
+  - message: "Zmieniono nazw\u0119 zawodu \"Szef Ochrony\" na \"Komendant Ochrony\""
+    type: Tweak
+  - message: "Zmieniono nazw\u0119 zawodu \"Dyrektor Medyczny\" na \"Ordynator Medyczny\""
+    type: Tweak
+  id: 9134
+  time: '2026-01-24T16:57:26.0000000+00:00'
+  url: https://github.com/polonium14/polonium-station/pull/415
+- author: Nikitapl
+  changes:
+  - message: "Zmniejszono obra\u017Cenia, kt\xF3re zadaje bestia, i jej HP."
+    type: Tweak
+  - message: "Naprawiono b\u0142\u0105d, przy kt\xF3rym domy\u015Blny d\u017Awi\u0119\
+      k otwierania pojemnik\xF3w zamienia\u0142 si\u0119 w screamer"
+    type: Fix
+  id: 9135
+  time: '2026-01-24T16:56:48.0000000+00:00'
+  url: https://github.com/polonium14/polonium-station/pull/416
