@@ -1,6 +1,7 @@
 // SPDX-FileCopyrightText: 2024 Nemanja <98561806+EmoGarbage404@users.noreply.github.com>
 // SPDX-FileCopyrightText: 2024 deltanedas <39013340+deltanedas@users.noreply.github.com>
 // SPDX-FileCopyrightText: 2025 taydeo <td12233a@gmail.com>
+// SPDX-FileCopyrightText: 2026 Nikita (Nick) <174215049+nikitosych@users.noreply.github.com>
 // SPDX-FileCopyrightText: 2026 Polonium-bot <admin@ss14.pl>
 // SPDX-FileCopyrightText: 2026 nikitosych <174215049+nikitosych@users.noreply.github.com>
 //
@@ -11,7 +12,6 @@ using Content.Server.StationEvents.Components;
 using Content.Server.Storage.Components;
 using Content.Server.Storage.EntitySystems;
 using Content.Shared.GameTicking.Components;
-using Robust.Shared.Audio;
 using Robust.Shared.Map;
 using Robust.Shared.Random;
 
@@ -40,12 +40,6 @@ public sealed class RandomEntityStorageSpawnRule : StationEventSystem<RandomEnti
             if (!_entityStorage.CanInsert(spawn, ent, storage))
                 continue;
 
-            if (comp.FirstOpenStorageSound != null)
-            {
-                storage.FirstOpenSound = comp.FirstOpenStorageSound;
-                Dirty(ent, storage);
-            }
-
             validLockers.Add((ent, storage));
         }
 
@@ -59,6 +53,15 @@ public sealed class RandomEntityStorageSpawnRule : StationEventSystem<RandomEnti
         if (!_entityStorage.Insert(spawn, locker, storageComp))
         {
             Del(spawn);
+        }
+        else
+        {
+            if (comp.FirstOpenStorageSound != null)
+            {
+
+                storageComp.FirstOpenSound = comp.FirstOpenStorageSound;
+                Dirty(locker, storageComp);
+            }
         }
     }
 }

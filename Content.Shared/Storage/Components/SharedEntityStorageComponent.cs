@@ -52,6 +52,7 @@
 // SPDX-FileCopyrightText: 2025 ArtisticRoomba <145879011+ArtisticRoomba@users.noreply.github.com>
 // SPDX-FileCopyrightText: 2025 JoulesBerg <104539820+JoulesBerg@users.noreply.github.com>
 // SPDX-FileCopyrightText: 2025 taydeo <td12233a@gmail.com>
+// SPDX-FileCopyrightText: 2026 Nikita (Nick) <174215049+nikitosych@users.noreply.github.com>
 // SPDX-FileCopyrightText: 2026 Polonium-bot <admin@ss14.pl>
 // SPDX-FileCopyrightText: 2026 nikitosych <174215049+nikitosych@users.noreply.github.com>
 //
@@ -188,7 +189,7 @@ public abstract partial class SharedEntityStorageComponent : Component
     public Container Contents = default!;
 
     [ViewVariables(VVAccess.ReadWrite)]
-    public bool FirstTimePlayed = false;
+    public bool FirstTimeOpened = false;
 
 }
 
@@ -202,7 +203,7 @@ public sealed class EntityStorageComponentState : ComponentState
     public float EnteringRange;
     public TimeSpan NextInternalOpenAttempt;
     public SoundSpecifier? FirstOpenSound;
-    public bool FirstTimePlayed;
+    public bool FirstTimeOpened;
 
     public EntityStorageComponentState(
         bool open,
@@ -212,7 +213,7 @@ public sealed class EntityStorageComponentState : ComponentState
         float enteringRange,
         TimeSpan nextInternalOpenAttempt,
         SoundSpecifier? firstOpenSound,
-        bool firstTimePlayed)
+        bool firstTimeOpened)
     {
         Open = open;
         Capacity = capacity;
@@ -221,7 +222,7 @@ public sealed class EntityStorageComponentState : ComponentState
         EnteringRange = enteringRange;
         NextInternalOpenAttempt = nextInternalOpenAttempt;
         FirstOpenSound = firstOpenSound;
-        FirstTimePlayed = firstTimePlayed;
+        FirstTimeOpened = firstTimeOpened;
     }
 }
 

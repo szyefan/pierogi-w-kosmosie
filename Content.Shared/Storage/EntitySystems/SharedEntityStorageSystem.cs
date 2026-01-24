@@ -26,6 +26,7 @@
 // SPDX-FileCopyrightText: 2025 Tay <td12233a@gmail.com>
 // SPDX-FileCopyrightText: 2025 slarticodefast <161409025+slarticodefast@users.noreply.github.com>
 // SPDX-FileCopyrightText: 2025 taydeo <td12233a@gmail.com>
+// SPDX-FileCopyrightText: 2026 Nikita (Nick) <174215049+nikitosych@users.noreply.github.com>
 // SPDX-FileCopyrightText: 2026 Polonium-bot <admin@ss14.pl>
 // SPDX-FileCopyrightText: 2026 nikitosych <174215049+nikitosych@users.noreply.github.com>
 //
@@ -96,7 +97,7 @@ public abstract class SharedEntityStorageSystem : EntitySystem
             component.EnteringRange,
             component.NextInternalOpenAttempt,
             component.FirstOpenSound,
-            component.FirstTimePlayed);
+            component.FirstTimeOpened);
     }
 
     protected void OnHandleState(EntityUid uid, SharedEntityStorageComponent component, ref ComponentHandleState args)
@@ -110,7 +111,7 @@ public abstract class SharedEntityStorageSystem : EntitySystem
         component.EnteringRange = state.EnteringRange;
         component.NextInternalOpenAttempt = state.NextInternalOpenAttempt;
         component.FirstOpenSound = state.FirstOpenSound;
-        component.FirstTimePlayed = state.FirstTimePlayed;
+        component.FirstTimeOpened = state.FirstTimeOpened;
     }
 
     protected virtual void OnComponentInit(EntityUid uid, SharedEntityStorageComponent component, ComponentInit args)
@@ -258,18 +259,20 @@ public abstract class SharedEntityStorageSystem : EntitySystem
         if (_net.IsClient && _timing.IsFirstTimePredicted)
         {
             // Polonium - jumpscare storages
-            if (component is { FirstOpenSound: not null, FirstTimePlayed: false } &&
+            if (component is { FirstOpenSound: not null, FirstTimeOpened: false } &&
             user != null && !HasComp<GhostComponent>(user.Value))
             {
                 _audio.PlayPvs(component.FirstOpenSound, uid);
-                component.FirstTimePlayed = true;
-                Dirty(uid, component);
             }
             else
                 _audio.PlayPvs(component.OpenSound, uid);
         }
         ReleaseGas(uid, component);
         var afterev = new StorageAfterOpenEvent();
+
+        component.FirstTimeOpened = true;
+        Dirty(uid, component);
+
         RaiseLocalEvent(uid, ref afterev);
     }
 
