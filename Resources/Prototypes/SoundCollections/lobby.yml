@@ -24,6 +24,7 @@
 # SPDX-FileCopyrightText: 2025 vectorassembly <vectorassembly@icloud.com>
 # SPDX-FileCopyrightText: 2026 Damian Zieliński <zientasek.pl@gmail.com>
 # SPDX-FileCopyrightText: 2026 Polonium-bot <admin@ss14.pl>
+# SPDX-FileCopyrightText: 2026 pinkscreen <76622775+thepinkscreen@users.noreply.github.com>
 #
 # SPDX-License-Identifier: AGPL-3.0-or-later AND MIT
 
@@ -105,3 +106,5 @@
     - /Audio/Lobby/Dire_Situation.ogg
     - /Audio/Lobby/Time_Is_Running_Out.ogg
     - /Audio/Lobby/Dropzone.ogg
+    # Polonium
+    - /Audio/Lobby/CzyToKoniec.ogg
