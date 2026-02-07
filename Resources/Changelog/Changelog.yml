@@ -1,18 +1,4 @@
 ﻿Entries:
-- author: ElectroJr
-  changes:
-  - message: Fixed some visual overlays not being removed when the effect should stop.
-    type: Fix
-  id: 7834
-  time: '2025-01-20T01:24:40.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/34527
-- author: Compilatron144
-  changes:
-  - message: Raised Plasma Station's population limit
-    type: Tweak
-  id: 7835
-  time: '2025-01-21T04:56:47.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/34549
 - author: sporkyz
   changes:
   - message: Galoshes are now restricted to janitor.
@@ -4075,3 +4061,23 @@
   id: 9141
   time: '2026-02-07T12:57:29.0000000+00:00'
   url: https://github.com/polonium14/polonium-station/pull/427
+- author: Zintex
+  changes:
+  - message: Naprawiony spawn z dwoma PDA jako Salvage Specialist
+    type: Fix
+  id: 9142
+  time: '2026-02-07T13:59:17.0000000+00:00'
+  url: https://github.com/polonium14/polonium-station/pull/450
+- author: Zintex
+  changes:
+  - message: "poprawiono t\u0142umaczenie dzia\u0142ania na artefakcie z toczenie\
+      \ na wa\u0142kowanie"
+    type: Fix
+  - message: "poprawiono t\u0142umaczenie przedmiotu p\u0142yta ze z\u0142omu na zbroja\
+      \ p\u0142ytowa ze z\u0142omu"
+    type: Fix
+  - message: "naprawiono pust\u0105 nazw\u0119 i opis kamizelki ochronnej"
+    type: Fix
+  id: 9143
+  time: '2026-02-07T13:57:50.0000000+00:00'
+  url: https://github.com/polonium14/polonium-station/pull/449
