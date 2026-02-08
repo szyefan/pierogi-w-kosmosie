@@ -1,14 +1,4 @@
 ﻿Entries:
-- author: K-Dynamic
-  changes:
-  - message: Electrified doors and windoors now visibly spark when touched.
-    type: Tweak
-  - message: New tips have been added about opening electrified doors by throwing
-      your PDA or ID, and resetting doors that are electrified by AI.
-    type: Add
-  id: 7837
-  time: '2025-01-21T10:39:16.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/34502
 - author: Nimfar11
   changes:
   - message: Adds Blueprint double emergency tank.
@@ -4072,3 +4062,10 @@
   id: 9144
   time: '2026-02-07T16:05:57.0000000+00:00'
   url: https://github.com/polonium14/polonium-station/pull/452
+- author: Nikitapl
+  changes:
+  - message: "Przet\u0142umaczono artyku\u0142y poradnika o kodach zagro\u017Cenia"
+    type: Tweak
+  id: 9145
+  time: '2026-02-08T16:12:15.0000000+00:00'
+  url: https://github.com/polonium14/polonium-station/pull/455
