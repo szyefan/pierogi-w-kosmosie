@@ -357,7 +357,7 @@
       - NamesMilitaryFirst
       - NamesMilitaryLast
     - type: Loadout
-      prototypes: [ ERTEngineerGearEva ]
+      prototypes: [ ERTEngineerGear ]
       roleLoadout: [ RoleSurvivalExtended ]
 
 - type: entity
