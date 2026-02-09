@@ -148,7 +148,7 @@
   description: job-description-ertchaplain
   playTimeTracker: JobERTChaplain
   setPreference: false
-  startingGear: ERTChaplainGear
+  startingGear: ERTChaplainGearEVA
   icon: "JobIconERTChaplain"
   supervisors: job-supervisors-centcom
   canBeAntag: false
@@ -235,7 +235,7 @@
   description: job-description-ertengineer
   playTimeTracker: JobERTEngineer
   setPreference: false
-  startingGear: ERTEngineerGear # funky - the *BASE* job should not have EVA gear.
+  startingGear: ERTEngineerGearEVA # funky - the *BASE* job should not have EVA gear.
   icon: "JobIconERTEngineer"
   supervisors: job-supervisors-centcom
   canBeAntag: false
@@ -320,7 +320,7 @@
   description: job-description-ertsecurity
   playTimeTracker: JobERTSecurity
   setPreference: false
-  startingGear: ERTSecurityGear # funky - the BASE job should not have ***ENGINEER*** EVA GEAR???!?!??. what the fuck? why was this set to engineer eva gear
+  startingGear: ERTSecurityGearEVA # funky - the BASE job should not have ***ENGINEER*** EVA GEAR???!?!??. what the fuck? why was this set to engineer eva gear
   icon: "JobIconERTSecurity"
   supervisors: job-supervisors-centcom
   canBeAntag: false
@@ -497,7 +497,7 @@
   description: job-description-ertjanitor
   playTimeTracker: JobERTJanitor
   setPreference: false
-  startingGear: ERTJanitorGear # funky - the *BASE* job should not have EVA gear.
+  startingGear: ERTJanitorGearEVA # funky - the *BASE* job should not have EVA gear.
   icon: "JobIconERTJanitor"
   supervisors: job-supervisors-centcom
   canBeAntag: false
