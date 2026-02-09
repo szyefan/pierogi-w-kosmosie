@@ -148,7 +148,7 @@
   description: job-description-ertchaplain
   playTimeTracker: JobERTChaplain
   setPreference: false
-  startingGear: ERTChaplainGearEVA
+  startingGear: ERTChaplainGearEVA #Polonium - zmienia gear na EVA
   icon: "JobIconERTChaplain"
   supervisors: job-supervisors-centcom
   canBeAntag: false
@@ -235,7 +235,7 @@
   description: job-description-ertengineer
   playTimeTracker: JobERTEngineer
   setPreference: false
-  startingGear: ERTEngineerGearEVA # funky - the *BASE* job should not have EVA gear.
+  startingGear: ERTEngineerGearEVA # funky - the *BASE* job should not have EVA gear. #Polonium - zmienia gear na EVA
   icon: "JobIconERTEngineer"
   supervisors: job-supervisors-centcom
   canBeAntag: false
@@ -320,7 +320,7 @@
   description: job-description-ertsecurity
   playTimeTracker: JobERTSecurity
   setPreference: false
-  startingGear: ERTSecurityGearEVA # funky - the BASE job should not have ***ENGINEER*** EVA GEAR???!?!??. what the fuck? why was this set to engineer eva gear
+  startingGear: ERTSecurityGearEVA # funky - the BASE job should not have ***ENGINEER*** EVA GEAR???!?!??. what the fuck? why was this set to engineer eva gear #Polonium - zmienia gear na EVA
   icon: "JobIconERTSecurity"
   supervisors: job-supervisors-centcom
   canBeAntag: false
@@ -497,7 +497,7 @@
   description: job-description-ertjanitor
   playTimeTracker: JobERTJanitor
   setPreference: false
-  startingGear: ERTJanitorGearEVA # funky - the *BASE* job should not have EVA gear.
+  startingGear: ERTJanitorGearEVA # funky - the *BASE* job should not have EVA gear. #Polonium - zmienia gear na EVA
   icon: "JobIconERTJanitor"
   supervisors: job-supervisors-centcom
   canBeAntag: false
