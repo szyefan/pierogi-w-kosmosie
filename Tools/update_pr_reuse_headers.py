@@ -556,7 +556,7 @@ def main():
     parser.add_argument("--pr-license", default=DEFAULT_LICENSE_LABEL, help="License to use for new files")
     parser.add_argument("--pr-base-sha", help="Base SHA of the PR")
     parser.add_argument("--pr-head-sha", help="Head SHA of the PR")
-    parser.add_argument("--ignore-author", nargs="*", default=[], help="List of authors to ignore")
+    parser.add_argument("--ignore-author", nargs="+", default=[], dest="ignore_author", help="List of authors to ignore (can be specified multiple times)")
 
     args = parser.parse_args()
 
