@@ -96,6 +96,7 @@ jobs:
             --pr-base-sha ${{ github.event.pull_request.base.sha }} \
             --pr-head-sha ${{ github.event.pull_request.head.sha }} \
             --ignore-author "Copilot"
+            --ignore-author "Polonium-bot"
         working-directory: ${{ github.workspace }}
 
       - name: Commit changes
