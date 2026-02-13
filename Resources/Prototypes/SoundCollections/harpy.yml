@@ -4,11 +4,12 @@
 # SPDX-FileCopyrightText: 2025 corresp0nd <46357632+corresp0nd@users.noreply.github.com>
 # SPDX-FileCopyrightText: 2025 jackel234 <52829582+jackel234@users.noreply.github.com>
 # SPDX-FileCopyrightText: 2025 taydeo <td12233a@gmail.com>
+# SPDX-FileCopyrightText: 2026 Wudanty <wudanty@gmail.com>
 #
 # SPDX-License-Identifier: AGPL-3.0-or-later AND MIT
 
 - type: soundCollection
-  id: HarpyScreams
+  id: HarpyMaleScreams
   files:
     #- /Audio/Nyanotrasen/Voice/Felinid/cat_scream1.ogg  - Goobstation - Remove mute sound from felinid + harpy screams
     - /Audio/Nyanotrasen/Voice/Felinid/cat_scream2.ogg
@@ -20,6 +21,16 @@
     - /Audio/Voice/Human/malescream_4.ogg
     - /Audio/Voice/Human/malescream_5.ogg
     - /Audio/Voice/Human/malescream_6.ogg
+    - /Audio/Voice/Moth/moth_scream.ogg
+    - /Audio/Voice/Skeleton/skeleton_scream.ogg
+    - /Audio/Voice/Reptilian/reptilian_scream.ogg
+
+- type: soundCollection
+  id: HarpyFemaleScreams
+  files:
+    - /Audio/Nyanotrasen/Voice/Felinid/cat_scream2.ogg
+    - /Audio/Nyanotrasen/Voice/Felinid/cat_scream3.ogg
+    - /Audio/Animals/monkey_scream.ogg
     - /Audio/Voice/Human/femalescream_1.ogg
     - /Audio/Voice/Human/femalescream_2.ogg
     - /Audio/Voice/Human/femalescream_3.ogg
@@ -29,11 +40,22 @@
     - /Audio/Voice/Skeleton/skeleton_scream.ogg
     - /Audio/Voice/Reptilian/reptilian_scream.ogg
 
+
 - type: soundCollection
-  id: HarpyLaugh
+  id: HarpyMaleLaugh
   files:
     - /Audio/Voice/Human/manlaugh1.ogg
     - /Audio/Voice/Human/manlaugh2.ogg
+    - /Audio/Voice/Diona/diona_rustle1.ogg
+    - /Audio/Voice/Diona/diona_rustle2.ogg
+    - /Audio/Voice/Diona/diona_rustle3.ogg
+    - /Audio/Animals/lizard_happy.ogg
+    - /Audio/Animals/ferret_happy.ogg
+    - /Audio/Voice/Moth/moth_laugh.ogg
+
+- type: soundCollection
+  id: HarpyFemaleLaugh
+  files:
     - /Audio/Voice/Human/womanlaugh.ogg
     - /Audio/Voice/Diona/diona_rustle1.ogg
     - /Audio/Voice/Diona/diona_rustle2.ogg
@@ -64,24 +86,6 @@
     - /Audio/Effects/spray2.ogg
     - /Audio/_Impstation/Voice/Vox/voxhiss.ogg
     - /Audio/_Impstation/Voice/Reptilian/reptillian_hiss1.ogg
-
-- type: soundCollection
-  id: HarpySigh
-  files:
-    - /Audio/Voice/Human/male_sigh.ogg
-    - /Audio/Voice/Human/female_sigh.ogg
-
-- type: soundCollection
-  id: HarpyCry
-  files:
-    - /Audio/Voice/Human/cry_male_1.ogg
-    - /Audio/Voice/Human/cry_male_2.ogg
-    - /Audio/Voice/Human/cry_male_3.ogg
-    - /Audio/Voice/Human/cry_male_4.ogg
-    - /Audio/Voice/Human/cry_female_1.ogg
-    - /Audio/Voice/Human/cry_female_2.ogg
-    - /Audio/Voice/Human/cry_female_3.ogg
-    - /Audio/Voice/Human/cry_female_4.ogg
 
 - type: soundCollection
   id: HarpyMeows
