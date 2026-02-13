@@ -21,7 +21,9 @@
         tags:
           - ClownKudzu
     - type: Slippery
-      superSlippery: true
+      slipData:
+        paralyzeTime: 1
+        launchForwardsMultiplier: 2
     - type: StepTrigger
       intersectRatio: 0.2
     - type: SolutionContainerManager
