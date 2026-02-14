@@ -1,11 +1,4 @@
 ﻿Entries:
-- author: Emisse
-  changes:
-  - message: Lecter sprites have been updated.
-    type: Tweak
-  id: 7840
-  time: '2025-01-23T06:02:50.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/34589
 - author: Ian321
   changes:
   - message: Job specific contraband descriptions are now grammatically sound.
@@ -4069,3 +4062,15 @@
   id: 9147
   time: '2026-02-14T01:28:14.0000000+00:00'
   url: https://github.com/polonium14/polonium-station/pull/326
+- author: Nikitapl
+  changes:
+  - message: "T\u0142umaczenie wszystkich urz\u0105dze\u0144, w tym atmosferycznych,\
+      \ utylizacyjnych"
+    type: Add
+  - message: "T\u0142umaczenie p\u0142ytek drukowanych"
+    type: Add
+  - message: "Poprawki do istniej\u0105cych t\u0142umacze\u0144"
+    type: Tweak
+  id: 9148
+  time: '2026-02-14T03:19:42.0000000+00:00'
+  url: https://github.com/polonium14/polonium-station/pull/466
