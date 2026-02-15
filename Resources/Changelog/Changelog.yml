@@ -1,11 +1,4 @@
 ﻿Entries:
-- author: Fildrance, SaphireLattice, eoineoineoin
-  changes:
-  - message: Radial menu UIs have been updated for readability.
-    type: Tweak
-  id: 7842
-  time: '2025-01-23T12:16:59.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/32653
 - author: K-Dynamic
   changes:
   - message: The Drozd SMG can now fire in full-auto, burst or semi-auto
@@ -4074,3 +4067,14 @@
   id: 9149
   time: '2026-02-15T01:46:27.0000000+00:00'
   url: https://github.com/polonium14/polonium-station/pull/467
+- author: Nikitapl
+  changes:
+  - message: "Poprawiono niekt\xF3re b\u0142\u0119dy t\u0142umaczeniowe"
+    type: Fix
+  - message: "Przet\u0142umaczono do ko\u0144ca cele antagonist\xF3w"
+    type: Tweak
+  - message: "Przet\u0142umaczono okienko podsumowania rundy"
+    type: Add
+  id: 9150
+  time: '2026-02-15T06:15:26.0000000+00:00'
+  url: https://github.com/polonium14/polonium-station/pull/469
