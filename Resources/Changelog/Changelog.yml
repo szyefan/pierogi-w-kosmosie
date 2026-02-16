@@ -1,11 +1,4 @@
 ﻿Entries:
-- author: Ian321
-  changes:
-  - message: Restricted contraband now gets displayed correctly.
-    type: Fix
-  id: 7844
-  time: '2025-01-23T14:01:45.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/34558
 - author: TheShuEd, LeveFUN
   changes:
   - message: You can now put c4 on your head
@@ -4082,3 +4075,12 @@
   id: 9151
   time: '2026-02-15T18:34:38.0000000+00:00'
   url: https://github.com/polonium14/polonium-station/pull/468
+- author: sysio
+  changes:
+  - message: "Zmieniono nazw\u0119 dzia\u0142u in\u017Cynierii na dzia\u0142 techniczny."
+    type: Tweak
+  - message: "Poprawiono nazwy i opisy niekt\xF3rych zawod\xF3w i narz\u0119dzi."
+    type: Fix
+  id: 9152
+  time: '2026-02-16T03:02:08.0000000+00:00'
+  url: https://github.com/polonium14/polonium-station/pull/445
