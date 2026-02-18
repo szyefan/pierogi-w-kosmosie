@@ -4,3 +4,7 @@ ent-ClothingOuterHardsuitMusician = musician hardsuit
     .desc = A custom-made musician hardsuit.
 ent-ClothingOuterArmorHelldiver = diving hardsuit
     .desc = A unique variant of the classic mining hardsuit, given to only the most dedicated of salvagers.
+ent-ClothingOuterHardsuitCarpScale = Carp Scale Hardsuit
+    .desc = A hardsuit adorned with flexible and durable scales, has a jetpack built into it. Carp will not like you any more for wearing it.
+ent-ClothingOuterHardsuitHivelord = hivelord hardsuit
+    .desc = An eerie hardsuit made from the remaining pieces of a Hivelord, grants a small fraction of their regenerative abilities while worn.

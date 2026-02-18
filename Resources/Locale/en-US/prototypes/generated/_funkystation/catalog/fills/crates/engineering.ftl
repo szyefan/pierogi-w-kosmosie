@@ -6,3 +6,5 @@ ent-CrateBasicHardsuit = basic hardsuit kit
     .desc = A crate containing a basic hardsuit, rated for civilian use.
 ent-CrateEngineeringHEV = HEV equipment crate
     .desc = Contains a full HEV suit and a crowbar for handling hazardous materials safely.
+ent-CrateEngineeringTEG = TEG crate
+    .desc = Contains the center of a TEG and two circulators to match.

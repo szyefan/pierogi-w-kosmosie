@@ -19,6 +19,6 @@ ent-CrateFoodGetMore = skrzynia Getmore Bakemore
 ent-CrateFoodIceCream = dostawa lodów
     .desc = Wybór lodowych pyszności na każdą okazję! Zawiera 16 mrożonych smakołyków.
 ent-CrateFoodSnowcone = dostawa granity
-    .desc = Zamrażarka pełna orzeźwiających granit dla ciężko pracującej załogi - albo nawet dla tej leniwej! Zawiera 16 porcji.
+    .desc = Zamrażarka pełna orzeźwiających granit dla ciężko pracującej załogi — albo nawet dla tej leniwej! Zawiera 16 porcji.
 ent-CrateFoodHappyHonkBigBite = dostawa zestawów Happy Honk
     .desc = Dwa wypasione zestawy z burgerem Happy Honk Big Bite, frytkami serowymi, butelką Space Coli, kawałkiem szarlotki i zabawką!

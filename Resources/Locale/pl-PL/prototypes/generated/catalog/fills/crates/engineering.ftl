@@ -36,5 +36,7 @@ ent-CrateTechBoardRandom = skrzynia z płytkami sterującymi
     .desc = Nadwyżki płytek sterujących z niewiadomego pochodzenia.
 ent-CrateRPD = skrzynia z USR
     .desc = Skrzynia zawierająca pojedyncze urządzenie do szybkiego kładzenia rur (USR).
+ent-CrateAirGrenade = skrzynia z granatami powietrznymi
+    .desc = Skrzynia zawierająca 3 granaty powietrzne.
 ent-CrateEngineeringFirefighterBackpackTank = skrzynia strażacka
     .desc = Zawiera strażacki plecakowy zbiornik na wodę.

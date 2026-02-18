@@ -15,6 +15,5 @@ reagent-popup-tranquility = Czujesz dziwny spokój...
 reagent-name-profanol = przeklinol
 reagent-desc-profanol = Związek chemiczny, który powoduje, że ludzie kompulsywnie przeklinają. Niszczyciel niezliczonych zjazdów rodzinnych i pogrzebów.
 
-
 # END OF MIT-LICENSED CODE
 

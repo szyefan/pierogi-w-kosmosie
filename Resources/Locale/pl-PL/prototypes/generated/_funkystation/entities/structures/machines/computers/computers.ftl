@@ -10,3 +10,5 @@ ent-EngiComputerComms = konsola komunikacyjna inżynierii
     .desc = Komputer służący do nadawania ogłoszeń stacyjnych, ustawiania poziomów alarmowych oraz wzywania promu ratunkowego.
 ent-MedicalComputerComms = konsola komunikacyjna medycyny
     .desc = Komputer służący do nadawania ogłoszeń stacyjnych, ustawiania poziomów alarmowych oraz wzywania promu ratunkowego.
+ent-ComputerCargoOrdersAtmospherics = konsola rezerw atmosferycznych
+    .desc = Używana przez dział atmosfery do zarządzania gazami i zamawiania zapasów.

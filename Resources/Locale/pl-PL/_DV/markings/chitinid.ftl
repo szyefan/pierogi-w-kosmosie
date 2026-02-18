@@ -30,6 +30,7 @@ marking-ChitinidWingsStubby-stubby = Wing
 marking-ChitinidWingsStubby = Tail (Stubby)
 marking-ChitinidWingsBee-bee_primary = Primary
 marking-ChitinidWingsBee-bee_secondary = Secondary
+marking-ChitinidWingsBee-bee_tertiary = Tertiary
 marking-ChitinidWingsBee = Tail (Honeybee)
 marking-ChitinidWingsFirefly-firefly_primary = Primary
 marking-ChitinidWingsFirefly-firefly_secondary = Secondary

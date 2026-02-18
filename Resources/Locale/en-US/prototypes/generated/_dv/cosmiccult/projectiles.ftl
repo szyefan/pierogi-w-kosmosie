@@ -6,3 +6,5 @@ ent-ProjectileCosmicRazor = Astral Bolt
     .desc = Ouch.
 ent-BulletImpactEffectCosmic = { "" }
     .desc = { "" }
+ent-CosmicLambdaParticle = Λ-stabilizer particles
+    .desc = { ent-BaseBullet.desc }

@@ -180,3 +180,5 @@ ent-ThermomachineAdvancedFreezerMachineCircuitBoard = advanced freezer thermomac
     .desc = Looks like you could use a screwdriver to change the board type.
 ent-ThermomachineAdvancedHeaterMachineCircuitBoard = advanced heater thermomachine machine board
     .desc = Looks like you could use a screwdriver to change the board type.
+ent-WashingMachineCircuitboard = washing machine board
+    .desc = { ent-BaseMachineCircuitboard.desc }

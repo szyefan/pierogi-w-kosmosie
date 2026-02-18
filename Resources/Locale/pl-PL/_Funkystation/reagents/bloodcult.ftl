@@ -11,5 +11,3 @@ reagent-effect-condition-guidebook-is-blood-cultist =
        *[false] cel jest kultystą krwi
     }
 sanguine-perniculate-holywater-reaction = Nieczysta krew gwałtownie reaguje ze świętą wodą, oczyszczając się!
-
-

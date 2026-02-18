@@ -7,6 +7,6 @@ ent-ActionRecallKatana = Przywołaj katanę
 ent-ActionNinjaEmp = Wybuch EM
     .desc = Unieruchamia pobliską technologię za pomocą impulsu elektromagnetycznego.
 ent-ActionTogglePhaseCloak = Płaszcz fazowy
-    .desc = Przełącza płaszcz fazowy kombinezonu. Uważaj - jeśli zostaniesz trafiony, wszystkie umiejętności zostaną wyłączone na 5 sekund, w tym maskowanie!
+    .desc = Przełącza płaszcz fazowy kombinezonu. Uważaj — jeśli zostaniesz trafiony, wszystkie umiejętności zostaną wyłączone na 5 sekund, w tym maskowanie!
 ent-ActionEnergyKatanaDash = Doskok katany
     .desc = Teleportuj się w dowolne miejsce w zasięgu wzroku, o ile trzymasz katanę energetyczną w dłoni.

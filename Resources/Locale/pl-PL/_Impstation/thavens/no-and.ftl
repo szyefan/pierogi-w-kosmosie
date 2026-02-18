@@ -5,7 +5,8 @@
 # SPDX-License-Identifier: AGPL-3.0-or-later AND MIT
 
 thaven-mood-secret-moods-name = Trzymaj Nastroje W Sekrecie
-thaven-mood-secret-moods-desc = Twoje Nastroje są ściśle trzymanym sekretem, i nigdy nie powinny być ujawniane komukolwiek. 
+thaven-mood-secret-moods-desc = Twoje Nastroje są ściśle trzymanym sekretem, i nigdy nie powinny być ujawniane komukolwiek.
+thaven-mood-no-modern-medicine-name = Żadnej Nowoczesnej Medycyny
 thaven-mood-no-modern-medicine-desc = Nie akceptujesz współczesnej medycyny i powinieneś powstrzymać się od leczenia nią, jeśli to możliwe.
 thaven-mood-department-disapproval-name = Negatywny Do { $department }
 thaven-mood-department-disapproval-desc = Jesteś negatywnie nastawiony wobec { $department } oraz kogokolwiek kto w nim pracuje (Wykluczając siebe.)
@@ -20,7 +21,7 @@ thaven-mood-detest-silicons-desc = Odzywanie się do Silikonów jest poniżając
 thaven-mood-dinner-floor-name = Maniery Podłogowe
 thaven-mood-dinner-floor-desc = Jedzenie i picie należy poprawnie spożywać z podłogi.
 thaven-mood-hug-bad-name = Przytulanie? Fuj!.
-thaven-mood-hug-bad-desc = Tam, skąd pochodzisz, Przytulenie kogoś jest poważną zniewagą. 
+thaven-mood-hug-bad-desc = Tam, skąd pochodzisz, Przytulenie kogoś jest poważną zniewagą.
 thaven-mood-atheist-name = Odrzucasz Religie
 thaven-mood-atheist-desc = Odrzucasz jakąkolwiek zorganizowaną religie, chyba że twoje nastroje mówią inaczej, w innym przypadku dążysz do zakłócania ich działań oraz likwidacji.
 thaven-mood-procrastinator-name = Prokastrynator
@@ -77,7 +78,7 @@ thaven-mood-mad-hatter-desc = Jesteś sam na stacji. Wszyscy inni są jedynie wy
 thaven-mood-crawler-name = Głęboki Ukłon
 thaven-mood-crawler-desc = Nieokazywanie szacunku poprzez brak głębokiego ukłonu i przyjęcia pozycji leżącej przed rozpoczęciem rozmowy jest nieuprzejme.
 thaven-mood-elevated-name = Podłoga To Lawa
-thaven-mood-elevated-desc = Preferujesz znajdować się na podwyższeniach, takich jak stoły, krzesła, barierki itp. 
+thaven-mood-elevated-desc = Preferujesz znajdować się na podwyższeniach, takich jak stoły, krzesła, barierki itp.
 thaven-mood-fairy-rings-name = Kręgi Wróżek
 thaven-mood-fairy-rings-desc = Nieprzerwane okręgi są barierą nie do przejścia.
 thaven-mood-fairy-name = Zaklęty
@@ -86,4 +87,4 @@ thaven-mood-afraiddark-name = Strach Przed Ciemnością
 thaven-mood-afraiddark-desc = W ciemności kryje się wiele niebezpieczeństw, i nie wkroczysz w nią bez odpowiedniego oświetlenia.
 # Testing Locales, only exist to shut up prototype tests
 DuplicateTest = Nie powinieneś tego widzieć
-DuplicateOverlapTest = Time, doctor freeman?
+DuplicateOverlapTest = Czas, doktorze Freeman?

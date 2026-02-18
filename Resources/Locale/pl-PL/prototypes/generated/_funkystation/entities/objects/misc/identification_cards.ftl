@@ -1,10 +1,14 @@
 ent-InternalAffairsAgentIDCard = identyfikator Agenta Spraw Wewnętrznych
     .desc = { ent-IDCardStandard.desc }
-ent-MagistrateIDCard = identyfikator magistrata
+ent-MagistrateIDCard = identyfikator sędziego
+    .desc = { ent-IDCardStandard.desc }
+ent-CentcomInternIDCard = identyfikator stażysty Centralnego Dowództwa
     .desc = { ent-IDCardStandard.desc }
 ent-BlueshieldOfficerIDCard = identyfikator oficera "Niebieskiej Tarczy"
     .desc = { ent-IDCardStandard.desc }
 ent-NanotrasenRepresentativeIDCard = identyfikator przedstawiciela Nanotrasen
+    .desc = { ent-IDCardStandard.desc }
+ent-GeneticistIDCard = identyfikator genetyka
     .desc = { ent-IDCardStandard.desc }
 ent-IDCardAncient = Idealnie retrowersyjny identyfikator
     .desc = Idealnie retrowersyjny identyfikator. Wygląda, jakby mógł używać trochę smaku.

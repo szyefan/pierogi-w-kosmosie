@@ -25,3 +25,5 @@ ent-HeatExchangerBend = { ent-HeatExchanger }
     .desc = { ent-HeatExchanger.desc }
 ent-HeatPump = heat pump
     .desc = A pump that moves heat from one side to the other.
+ent-GasTemperatureGate = temperature gate
+    .desc = A passive gate that opens when temperature is above or below it's set threshold.

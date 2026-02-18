@@ -78,4 +78,3 @@ ion-storm-law-protect = NIGDY NIE WOLNO CI SKRZYWDZIĆ { $who } I NIE POZWÓL, P
 # implementing other variants is annoying so just have this one
 # COMMUNISM IS KILLING CLOWNS
 ion-storm-law-concept-verb = { $concept } TO { $verb } { $subjects }
-

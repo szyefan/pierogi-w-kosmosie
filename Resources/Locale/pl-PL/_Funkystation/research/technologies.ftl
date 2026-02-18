@@ -4,4 +4,6 @@
 #
 # SPDX-License-Identifier: AGPL-3.0-or-later AND MIT
 
-research-technology-instruments = Instrument Production
+research-technology-instruments = Produkcja Instrumentów
+research-technology-weapon-energy-gun = Kompaktowa Broń Energetyczna
+research-technology-experimental-tesla-gun = Eksperymentalne Działo Tesla

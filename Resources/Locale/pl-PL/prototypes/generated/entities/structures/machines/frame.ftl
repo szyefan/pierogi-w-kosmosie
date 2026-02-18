@@ -1,6 +1,6 @@
 ent-UnfinishedMachineFrame = rama maszyny
-            .desc = Maszyna w trakcie budowy. Potrzebuje więcej części.
-            .suffix = Niezakończona
+    .desc = Maszyna w trakcie budowy. Potrzebuje więcej części.
+    .suffix = Niezakończona
 ent-MachineFrame = rama maszyny
     .suffix = Gotowa
     .desc = { "" }

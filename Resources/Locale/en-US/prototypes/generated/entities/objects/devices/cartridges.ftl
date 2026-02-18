@@ -18,3 +18,5 @@ ent-AstroNavCartridge = AstroNav cartridge
     .desc = A program for navigation that provides GPS coordinates.
 ent-WordleCartridge = Wordle cartridge
     .desc = A program for playing Wordle, a word-guessing game.
+ent-PlantScanCartridge = PlantScan cartridge
+    .desc = A program that provides botanical analysis tools.

@@ -1,6 +1,11 @@
-// SPDX-FileCopyrightText: 2025 jhrushbe <capnmerry@gmail.com>
-// SPDX-FileCopyrightText: 2025 rottenheadphones <juaelwe@outlook.com>
+// SPDX-FileCopyrightText: 2025 Kyle Tyo <36606155+VerinSenpai@users.noreply.github.com>
+// SPDX-FileCopyrightText: 2025 Nikita (Nick) <174215049+nikitosych@users.noreply.github.com>
 // SPDX-FileCopyrightText: 2025 taydeo <td12233a@gmail.com>
+// SPDX-FileCopyrightText: 2026 jhrushbe <capnmerry@gmail.com>
+// SPDX-FileCopyrightText: 2026 nikitosych <174215049+nikitosych@users.noreply.github.com>
+// SPDX-FileCopyrightText: 2026 rottenheadphones <juaelwe@outlook.com>
+// SPDX-FileCopyrightText: 2026 slarticodefast <161409025+slarticodefast@users.noreply.github.com>
+// SPDX-FileCopyrightText: 2026 zergologist <114537969+Chedd-Error@users.noreply.github.com>
 //
 // SPDX-License-Identifier: CC-BY-NC-SA-3.0
 
@@ -27,8 +32,6 @@ public sealed class TurbineSystem : SharedTurbineSystem
     [Dependency] private readonly AnimationPlayerSystem _animationPlayer = default!;
     [Dependency] private readonly SpriteSystem _sprite = default!;
 
-    private static readonly EntProtoId _arrowPrototype = "TurbineFlowArrow";
-
     public override void Initialize()
     {
         base.Initialize();
@@ -46,7 +49,7 @@ public sealed class TurbineSystem : SharedTurbineSystem
             bui.Update();
         }
     }
-    protected override void OnRepairTurbineFinished(Entity<TurbineComponent> ent, ref SharedRepairableSystem.RepairFinishedEvent args)
+    protected override void OnRepairTurbineFinished(Entity<TurbineComponent> ent, ref RepairFinishedEvent args)
     {
         if (args.Cancelled)
             return;
@@ -57,7 +60,7 @@ public sealed class TurbineSystem : SharedTurbineSystem
         _popupSystem.PopupClient(Loc.GetString("turbine-repair", ("target", ent.Owner), ("tool", args.Used!)), ent.Owner, args.User);
     }
 
-    private void TurbineExamined(EntityUid uid, TurbineComponent comp, ClientExaminedEvent args) => Spawn(_arrowPrototype, new EntityCoordinates(uid, 0, 0));
+    private void TurbineExamined(EntityUid uid, TurbineComponent comp, ClientExaminedEvent args) => Spawn(comp.ArrowPrototype, new EntityCoordinates(uid, 0, 0));
 
     private void OnAnimationCompleted(Entity<TurbineComponent> ent, ref AnimationCompletedEvent args) => PlayAnimation(ent);
 
@@ -79,7 +82,7 @@ public sealed class TurbineSystem : SharedTurbineSystem
         if (ent.Comp.RPM < 1)
             return;
 
-        if (!TryComp<SpriteComponent>(ent.Owner, out var sprite))
+        if (!TryComp<SpriteComponent>(ent.Owner, out var sprite) || !_sprite.TryGetLayer((ent.Owner,sprite), TurbineVisualLayers.TurbineSpeed, out var layer, false))
             return;
 
         var state = "speedanim";
@@ -90,7 +93,7 @@ public sealed class TurbineSystem : SharedTurbineSystem
             return;
 
         ent.Comp.AnimRPM = ent.Comp.RPM;
-        var layer = TurbineVisualLayers.TurbineSpeed;
+        var layerKey = TurbineVisualLayers.TurbineSpeed;
         var time = 0.5f * ent.Comp.BestRPM / ent.Comp.RPM;
         var timestep = time/12;
         var animation = new Animation
@@ -100,7 +103,7 @@ public sealed class TurbineSystem : SharedTurbineSystem
             {
                 new AnimationTrackSpriteFlick
                 {
-                    LayerKey = layer,
+                    LayerKey = layerKey,
                     KeyFrames =
                     {
                         new AnimationTrackSpriteFlick.KeyFrame("turbinerun_00", 0),
@@ -119,7 +122,7 @@ public sealed class TurbineSystem : SharedTurbineSystem
                 }
             }
         };
-        _sprite.LayerSetVisible((ent.Owner, sprite), layer, true);
+        _sprite.LayerSetVisible(layer, true);
         _animationPlayer.Play(ent.Owner, animation, state);
     }
 }

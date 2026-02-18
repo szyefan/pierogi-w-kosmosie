@@ -12,6 +12,7 @@ nuke-user-interface-arm-button = URUCHOM
 nuke-user-interface-disarm-button = ROZBRÓJ
 nuke-user-interface-anchor-button = ZAKOTWICZ
 nuke-user-interface-eject-button = WYSUŃ
+
 ## Upper status
 
 nuke-user-interface-first-status-device-locked = URZĄDZENIE ZABLOKOWANE
@@ -41,6 +42,7 @@ nuke-codes-list = { $name } kod: { $code }
 nuke-codes-fax-paper-name = kody uwierzytelniające nuklearne
 # Nuke disk slot
 nuke-slot-component-slot-name-disk = Dysk
+
 ## Examine
 
 nuke-examine-armed = Ej, dlaczego ta [color=red]czerwona lampka[/color] miga?

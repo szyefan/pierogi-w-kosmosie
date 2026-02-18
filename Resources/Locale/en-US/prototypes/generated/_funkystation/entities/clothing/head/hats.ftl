@@ -10,3 +10,5 @@ ent-ClothingHeadHatConductor = conductor's hat
     .desc = Even in the darkness of space, people love their trains.
 ent-ClothingHeadHatSurgcapBlack = coroner cap
     .desc = A black cap worn by coroners. Makes you look as dreary as your workplace.
+ent-ClothingHeadHatCEConductor = chief engineer's conductor hat
+    .desc = A conductor can either mean a leader or something that large amounts of electricity course through. Chief engineers tend to be both.

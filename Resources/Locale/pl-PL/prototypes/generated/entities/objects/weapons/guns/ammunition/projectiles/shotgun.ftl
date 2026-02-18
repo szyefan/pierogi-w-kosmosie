@@ -1,4 +1,4 @@
-ent-PelletShotgunSlug = śrut (12 kaliber slug)
+ent-PelletShotgunSlug = śrut (12 kaliber jednolite)
     .desc = { ent-BaseBullet.desc }
 ent-PelletShotgunBeanbag = nabój (12 kaliber traumatyczne)
     .desc = { ent-BaseBullet.desc }

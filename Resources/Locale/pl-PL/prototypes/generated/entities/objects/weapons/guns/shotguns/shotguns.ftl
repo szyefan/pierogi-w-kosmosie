@@ -29,3 +29,5 @@ ent-WeaponShotgunImprovised = improwizowana strzelba
 ent-WeaponShotgunImprovisedLoaded = improwizowana strzelba
     .suffix = Załadowana
     .desc = { ent-WeaponShotgunImprovised.desc }
+ent-WeaponShotgunHushpup = Haszpap
+    .desc = Tajemnicza modyfikacja Egzekutora, wyposażona w eksperymentalny tłumik. Idealna dla tych, którzy mają surowy kodeks moralny. Używa nabojów kalibru .50.

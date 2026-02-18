@@ -102,3 +102,5 @@ ent-ClothingUniformJumpsuitMedicalCustodian = medical custodian jumpsuit
     .desc = A cute jumpsuit worn by medical custodians. It's perfect for running from one end of the Medbay to the other, over and over.
 ent-ClothingUniformJumpsuitParamedicSpeedsuit = paramedic speedsuit
     .desc = Why do you think these things are like, 95% polyester? You can clean off blood and vomit with a wet nap!
+ent-ClothingUniformJumpsuitNTRTurtleneck = nanotrasen representative's turtleneck
+    .desc = An expensive blend of wools make this sweater exceptionally comfy, without being itchy at all!

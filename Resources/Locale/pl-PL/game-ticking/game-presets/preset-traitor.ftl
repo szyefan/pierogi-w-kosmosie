@@ -19,6 +19,7 @@ traitor-death-match-description = Wszyscy są zdrajcami. Wszyscy chcą się nawz
 traitor-death-match-station-is-too-unsafe-announcement = Stacja jest zbyt niebezpieczna, aby kontynuować. Masz jedną minutę.
 traitor-death-match-end-round-description-first-line = PDA odzyskane po rundzie...
 traitor-death-match-end-round-description-entry = PDA { $originalName }, z { $tcBalance } TK
+
 ## TraitorRole
 
 # TraitorRole

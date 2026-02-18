@@ -4,5 +4,7 @@
 #
 # SPDX-License-Identifier: AGPL-3.0-or-later AND MIT
 
-trait-nocontractions-name = No contractions
-trait-nocontractions-desc = You are (mostly) incapable of using contractions.
+trait-nocontractions-name = Bez Skrótów
+trait-nocontractions-desc = Jesteś (przeważnie) niezdolny do używania skrótów.
+trait-milbrat-name = Wojskowy Żargon
+trait-milbrat-desc = Subtelnie nawiązujesz do przeszłości w wojsku używając dziwnej terminologii i akronimów.

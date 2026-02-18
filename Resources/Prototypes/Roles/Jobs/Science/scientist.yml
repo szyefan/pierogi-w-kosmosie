@@ -56,6 +56,9 @@
   - ScientistXenoarchaeologist
   - ScientistAnomalyResearcher
   - ScientistHardwareTechnician
+  - ScientistLabTechnician
+  - ScientistTheoreticalPhysicist
+  - ScientistGeneticist
 
 - type: startingGear
   id: ScientistGear
@@ -76,3 +79,15 @@
 - type: jobAlternateTitle
   id: ScientistHardwareTechnician
   name: job-name-alt-scientist-3
+
+- type: jobAlternateTitle
+  id: ScientistLabTechnician
+  name: job-name-alt-scientist-4
+
+- type: jobAlternateTitle
+  id: ScientistTheoreticalPhysicist
+  name: job-name-alt-scientist-5
+
+- type: jobAlternateTitle
+  id: ScientistGeneticist
+  name: job-name-alt-scientist-6

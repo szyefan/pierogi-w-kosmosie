@@ -88,3 +88,5 @@ ent-ClothingOuterCoatRain = rain coat
     .desc = you never know when it might rain in space...
 ent-ClothingOuterCoatRainOpened = rain coat
     .desc = { ent-ClothingOuterStorageFoldableBaseOpened.desc }
+ent-ClothingOuterCoatBiker = biker's jacket
+    .desc = a black leather jacket decorated with skulls and a big zipper, why? beacuse its badass!

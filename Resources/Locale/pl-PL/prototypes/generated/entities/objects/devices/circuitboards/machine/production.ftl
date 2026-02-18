@@ -180,3 +180,5 @@ ent-ThermomachineAdvancedFreezerMachineCircuitBoard = zaawansowana termomaszyna 
     .desc = Wygląda na to, że możesz użyć śrubokręta, aby zmienić typ płytki.
 ent-ThermomachineAdvancedHeaterMachineCircuitBoard = zaawansowana termomaszyna grzewcza (płytka maszynowa)
     .desc = Wygląda na to, że możesz użyć śrubokręta, aby zmienić typ płytki.
+ent-WashingMachineCircuitboard = pralka (płytka maszynowa)
+    .desc = { ent-BaseMachineCircuitboard.desc }

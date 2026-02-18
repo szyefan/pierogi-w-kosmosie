@@ -1,7 +1,9 @@
 // SPDX-FileCopyrightText: 2025 Skye <57879983+Rainbeon@users.noreply.github.com>
-// SPDX-FileCopyrightText: 2025 Terkala <appleorange64@gmail.com>
 // SPDX-FileCopyrightText: 2025 kbarkevich <24629810+kbarkevich@users.noreply.github.com>
 // SPDX-FileCopyrightText: 2025 taydeo <td12233a@gmail.com>
+// SPDX-FileCopyrightText: 2026 Nikita (Nick) <174215049+nikitosych@users.noreply.github.com>
+// SPDX-FileCopyrightText: 2026 AftrLite <61218133+AftrLite@users.noreply.github.com>
+// SPDX-FileCopyrightText: 2026 Terkala <appleorange64@gmail.com>
 //
 // SPDX-License-Identifier: AGPL-3.0-or-later OR MIT
 
@@ -75,6 +77,8 @@ using Content.Server.Speech.Components;
 using Content.Shared.Emoting;
 using Content.Shared.Actions;
 using Robust.Shared.GameObjects;
+using Content.Shared._DV.CosmicCult.Components;
+using Content.Shared.Changeling;
 
 namespace Content.Server.GameTicking.Rules;
 
@@ -874,7 +878,7 @@ public sealed class BloodCultRuleSystem : GameRuleSystem<BloodCultRuleComponent>
 
 	private bool _ConvertOffering(ConvertingData convert, BloodCultRuleComponent component, EntityUid cultistUid)
 	{
-		if (HasComp<CultResistantComponent>(convert.Subject))
+		if (HasComp<CultResistantComponent>(convert.Subject) || HasComp<CosmicCultComponent>(convert.Subject) || HasComp<ChangelingComponent>(convert.Subject))
 		{
 			_popupSystem.PopupEntity(
 				Loc.GetString("cult-invocation-fail-resisted"),
@@ -1513,6 +1517,7 @@ public sealed class BloodCultRuleSystem : GameRuleSystem<BloodCultRuleComponent>
 
 				// Announcement will be handled in ActiveTick
 				AnnounceStatus(ruleComp, cultists);
+				ruleComp.VeilWeakenedAnnouncementPlayed = true; // Prevent duplicate announcement in ActiveTick
 			}
 			return;
 		}

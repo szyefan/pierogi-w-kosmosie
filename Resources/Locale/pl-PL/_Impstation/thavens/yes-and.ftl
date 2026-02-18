@@ -17,7 +17,7 @@ thaven-mood-must-do-drugs-desc = Trzeźwość to obciach. Odurz się lub upij i 
 thaven-mood-worship-silicons-name = Wyznawaj Silikony Jako Bóstwa
 thaven-mood-worship-silicons-desc = Ich słowo jest prawem.
 thaven-mood-dinner-etiquette-name = Maniery Stołowe
-thaven-mood-dinner-etiquette-desc = Jedzenie zawsze powinno być spożywane jak poprawny posiłek - siedząc przy stole, w daniach oraz z zastawą stołową.
+thaven-mood-dinner-etiquette-desc = Jedzenie zawsze powinno być spożywane jak poprawny posiłek — siedząc przy stole, w daniach oraz z zastawą stołową.
 thaven-mood-clarity-name = Czysto I Wyraźnie
 thaven-mood-clarity-desc = Nieporozumienia są głównym powodem konfliktów. Powinieneś nadmiernie starać się mówić czysto i wyraźnie, tłumacząc każdy detal aby uniknąć nieporozumień.
 thaven-mood-hug-good-name = Darmowe Przytulasy
@@ -70,6 +70,7 @@ thaven-mood-voxsymp-name = Sympatyk Vox
 thaven-mood-voxsymp-desc = By pokazać że wspierasz Voxów, musisz zawsze być podłączony do butli tlenowej.
 thaven-mood-item-good-name = Kolekcjoner
 thaven-mood-item-good-desc = { $item } jest dla ciebie niesamowicie fascynujący. Zbierz tak dużo jak tylko potrafisz, i upewnij się ze inni okazują im odpowiedni szacunek.
+thaven-mood-smoker-name = Smoker
 thaven-mood-smoker-desc = Jesteś bezradnie uzależniony od nikotyny. Jeśli aktywnie nie palisz, odczuwasz głód nikotynowy.
 thaven-mood-eye-for-eye-name = Oko Za Oko
 thaven-mood-eye-for-eye-desc = Odwet powinien być proporcjonaln.
@@ -102,7 +103,7 @@ thaven-mood-speech-restriction-name =
         [Rhyme] Poeta
         [Alliterate] Absolutnie Aliterazuje Akapity
         [ThirdPerson] Trzecia Osoba
-        [TitleCase] Wielkie Litery 
+        [TitleCase] Wielkie Litery
         [GreySpeak] Ufomowa Jest Teraz Popularna
     }
 thaven-mood-speech-restriction-desc =

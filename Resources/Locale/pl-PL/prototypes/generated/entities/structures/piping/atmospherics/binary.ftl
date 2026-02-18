@@ -25,3 +25,5 @@ ent-HeatExchangerBend = { ent-HeatExchanger }
     .desc = { ent-HeatExchanger.desc }
 ent-HeatPump = pompa ciepła
     .desc = Pompa, która przemieszcza ciepło z jednej strony na drugą.
+ent-GasTemperatureGate = zawór temperaturowy
+    .desc = Pasywny zawór, który otwiera się, gdy temperatura jest powyżej lub poniżej ustawionego progu.

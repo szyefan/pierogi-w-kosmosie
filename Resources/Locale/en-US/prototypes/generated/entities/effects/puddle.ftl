@@ -25,3 +25,5 @@ ent-PuddleSparkle = sparkle
     .desc = { "" }
 ent-Puddle = puddle
     .desc = A puddle of liquid.
+ent-Footprint = Footstep
+    .desc = Trace of liquid

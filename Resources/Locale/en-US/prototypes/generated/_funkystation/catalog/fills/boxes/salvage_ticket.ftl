@@ -3,4 +3,4 @@ ent-BoxSalvageVendShuttleKit = shuttle board kit
 ent-BoxSalvageCookoutKit = field cookout kit
     .desc = A box containing a freezer and electric grill board, skewers, 6 pack of beer, and assorted condiments.
 ent-BoxSalvageMedicalKit = field medical kit
-    .desc = A box containing medical supplies, defibrillator,body bags and the materials needed to construct a medibot.
+    .desc = A box containing medical supplies, defibrillator,body bags, roller bed and the materials needed to construct a medibot

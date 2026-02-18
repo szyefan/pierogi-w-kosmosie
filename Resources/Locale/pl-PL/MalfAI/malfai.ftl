@@ -205,4 +205,4 @@ malfai-store-purchase-failed = Zakup nieudany
 malfai-round-end-result = Uszkodzona SI
 # Confused why I have to do this..
 objective-issuer-malfai = Uszkodzona SI
-malfai-round-end-name-user = [color=white]{ $name }[/color] ([color=gray]{ $user }[/color])
+malfai-round-end-name-user =  [color=white]{ $name }[/color] ([color=gray]{ $user }[/color])

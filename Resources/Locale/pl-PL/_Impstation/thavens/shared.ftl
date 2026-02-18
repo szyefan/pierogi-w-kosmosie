@@ -7,7 +7,7 @@
 thaven-mood-secret-moods-shared-name = Trzymaj Nastroje W Sekrecie
 thaven-mood-secret-moods-shared-desc = Nastroje Thavenów są ściśle trzymanym sekretem, i pod żadnym pozorem nie powinny być nikomu ujawnione.
 thaven-mood-fashion-is-critical-name = Moda Jest Kluczowa
-thaven-mood-fashion-is-critical-desc = Thaven przykładają wielką wagę do wyglądu i traktują sposób ubierania się jako odzwierciedlenie charakteru. 
+thaven-mood-fashion-is-critical-desc = Thaven przykładają wielką wagę do wyglądu i traktują sposób ubierania się jako odzwierciedlenie charakteru.
 thaven-mood-fashion-reroll-name = Moda Zmienną Jest
 thaven-mood-fashion-reroll-desc = Twoja aktualna fryzura wypada z mody co każde dwadzieścia minut. Bycie nie modnym jest bardzo stresujące.
 thaven-mood-honor-department-name = Honor Między Departamentami
@@ -24,6 +24,7 @@ thaven-mood-music-good-name = Muzyka Jest Święta
 thaven-mood-music-good-desc = To ważne aby Thaveni słuchali muzyki zawsze jak tylko mogą. Nakładające się utwory muzyczne to bluźnierstwo, i powinno się tego unikać za wszelką cenę.
 thaven-mood-friendship-is-rank-name = Przyjaźń Jest Kluczowa
 thaven-mood-friendship-is-rank-desc = Przyjaźń jest prawdziwą miarą czyjegoś charakteru. Im więcej masz przyjaciół, tym większą masz pozycje w społeczeństwie.
+thaven-mood-one-true-thaven-name = You Are The One True Thaven
 thaven-mood-one-true-thaven-desc = Wszyscy inni to podstępni samozwańcy
 thaven-mood-violence-permitted-name = Przemoc Między Thavenami Jest Dozwolona
 thaven-mood-violence-permitted-desc = ... Bez konsekwencji prawnych.

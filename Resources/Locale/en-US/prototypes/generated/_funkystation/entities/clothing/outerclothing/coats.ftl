@@ -12,3 +12,5 @@ ent-ClothingOuterQMWindbreaker = quartermaster's windbreaker
     .desc = For increasing quarterly productivity by 0.3%, Nanotrasen has awarded you this distinguished windbreaker to set you apart from the common drones. You're a Quartermaster, after all.
 ent-ClothingOuterJacketChefBlue = blue chef jacket
     .desc = An apron-jacket used by a high class blue team chef.
+ent-ClothingOuterNTRCoat = nanotrasen representative's coat
+    .desc = An expensive coat worn only by the most esteemed Nanotrasen officials.

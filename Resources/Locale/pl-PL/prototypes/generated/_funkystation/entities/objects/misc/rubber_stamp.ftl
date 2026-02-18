@@ -7,3 +7,6 @@ ent-RubberStampMagistrate = pieczątka magistrata
 ent-RubberStampCyborg = pieczątka borga
     .suffix = NIE MAPOWAĆ
     .desc = { ent-RubberStampBase.desc }
+ent-RubberStampCentComIntern = pieczątka stażysty Centralnego Dowództwa
+    .suffix = NIE MAPOWAĆ
+    .desc = { ent-RubberStampBase.desc }

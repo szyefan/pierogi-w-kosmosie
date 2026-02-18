@@ -7,3 +7,6 @@ ent-RubberStampMagistrate = magistrate's rubber stamp
 ent-RubberStampCyborg = borg rubber stamp
     .suffix = DO NOT MAP
     .desc = { ent-RubberStampBase.desc }
+ent-RubberStampCentComIntern = CentComm intern rubber stamp
+    .suffix = DO NOT MAP
+    .desc = { ent-RubberStampBase.desc }

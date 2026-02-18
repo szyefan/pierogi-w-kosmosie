@@ -1,5 +1,7 @@
 ent-ClothingOuterVestWeb = web vest
     .desc = A synthetic armor vest. This one has added webbing and ballistic plates.
+ent-ClothingOuterVestWebElite = aramid web vest
+    .desc = A synthetic armor vest. This one has added webbing and heat resistant fibers.
 ent-ClothingOuterVestWebMerc = mercenary web vest
     .desc = A high-quality armored vest is commonly used by mercenaries. It's surprisingly flexible and light, made for fighting hostile wildlife.
 ent-ClothingOuterVestDetective = detective's vest

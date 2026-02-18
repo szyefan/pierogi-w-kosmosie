@@ -18,3 +18,5 @@ ent-AstroNavCartridge = katridż AstroNav
     .desc = Program do nawigacji, który zapewnia współrzędne GPS.
 ent-WordleCartridge = katridż Wordle
     .desc = Program do gry w Wordle, grę polegającą na zgadywaniu słów.
+ent-PlantScanCartridge = katridż PlantScan
+    .desc = Program, który zapewnia narzędzia do analizy botanicznej.

@@ -53,7 +53,11 @@
 # SPDX-FileCopyrightText: 2026 Damian Zieliński <zientasek.pl@gmail.com>
 # SPDX-FileCopyrightText: 2026 Nikita (Nick) <174215049+nikitosych@users.noreply.github.com>
 # SPDX-FileCopyrightText: 2026 Polonium-bot <admin@ss14.pl>
+# SPDX-FileCopyrightText: 2026 Frogoo <153249069+Fr0goo@users.noreply.github.com>
+# SPDX-FileCopyrightText: 2026 ThatOneMoon <91613003+ThatOneMoon@users.noreply.github.com>
+# SPDX-FileCopyrightText: 2026 ThatOneMoon <juozas.dringelis@gmail.com>
 # SPDX-FileCopyrightText: 2026 Zergologist <114537969+Chedd-Error@users.noreply.github.com>
+# SPDX-FileCopyrightText: 2026 zergologist <114537969+Chedd-Error@users.noreply.github.com>
 #
 # SPDX-License-Identifier: AGPL-3.0-or-later AND MIT
 
@@ -102,13 +106,14 @@
 - type: roleLoadout
   id: JobPassenger
   groups:
+  - GenericHats
   - PassengerJumpsuit
   - CommonBackpack
   - PassengerNeck
   - PassengerFace
   - PassengerGloves
   - PassengerOuterClothing
-  - PassengerShoes
+  - GenericShoes
   - Glasses
   - Survival
   - Trinkets
@@ -122,6 +127,7 @@
   - ServiceNeck # Polonium
   - BartenderJumpsuit
   - CommonBackpack
+  - Gloves
   - BartenderOuterClothing
   - GenericShoes
   - Glasses
@@ -134,8 +140,10 @@
   id: JobServiceWorker
   groups:
   - ServiceNeck # Polonium
+  - GenericHats
   - ServiceJumpsuit
   - CommonBackpack
+  - Gloves
   - GenericShoes
   - Glasses
   - Survival
@@ -151,6 +159,7 @@
   - ServiceNeck # Polonium
   - ChefJumpsuit
   - CommonBackpack
+  - Gloves
   - ChefOuterClothing
   - GenericShoes
   - Glasses
@@ -165,6 +174,7 @@
   - CivilianNeck # Polonium
   - LibrarianJumpsuit
   - CommonBackpack
+  - Gloves
   - GenericShoes
   - Glasses
   - Survival
@@ -178,6 +188,7 @@
   - LawyerNeck
   - LawyerJumpsuit
   - CommonBackpack
+  - Gloves
   - GenericShoes
   - Glasses
   - Survival
@@ -226,8 +237,10 @@
   groups:
   - BotanistHead
   - ServiceNeck # Polonium
+  - GenericHats
   - BotanistJumpsuit
   - BotanistBackpack
+  - Gloves
   - BotanistOuterClothing
   - GenericShoes
   - Glasses
@@ -244,6 +257,7 @@
   - ClownMask
   - ClownJumpsuit
   - ClownBackpack
+  - Gloves
   - ClownOuterClothing
   - ClownShoes
   - Glasses
@@ -259,6 +273,7 @@
   - MimeMask
   - MimeJumpsuit
   - MimeBackpack
+  - Gloves
   - MimeOuterClothing
   - MimeBelt
   - Glasses
@@ -273,6 +288,7 @@
   - CivilianNeck # Polonium
   - MusicianJumpsuit
   - CommonBackpack
+  - Gloves
   - MusicianOuterClothing
   - GenericShoes
   - Glasses
@@ -305,6 +321,7 @@
   - CargoTechnicianNeck
   - CargoTechnicianJumpsuit
   - CargoTechnicianBackpack
+  - Gloves
   - CargoTechnicianOuterClothing
   - CargoTechnicianShoes
   - CargoPDA
@@ -487,6 +504,7 @@
   - SecurityJobTrinkets
   - SecurityStar
   - GroupSpeciesBreathToolSecurity
+  - LoadoutSecurityOfficerWeapon
 
 # Polonium
 - type: roleLoadout
@@ -549,7 +567,7 @@
   - MedicalBackpack
   - ChiefMedicalOfficerOuterClothing
   - ChiefMedicalOfficerNeck
-  - ChemistShoes
+  - ChiefMedicalOfficerShoes
   - Glasses
   - SurvivalMedical
   - Trinkets
@@ -637,9 +655,11 @@
 - type: roleLoadout
   id: JobReporter
   groups:
+  - GenericHats
   - ReporterJumpsuit
   - ReporterOuterClothing # Goobstation - Bodycams
   - CommonBackpack
+  - Gloves
   - GenericShoes
   - Glasses
   - Survival

@@ -102,6 +102,7 @@
     - id: HonkbotSpawn
     - id: VentClog
     - id: CowiekMaupaSpawn # Polonium - Maupa
+    - id: MalignRiftSpawn # Funky
 
 - type: entityTable
   id: BasicAntagEventsTable

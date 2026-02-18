@@ -6,3 +6,5 @@ ent-CrateBasicHardsuit = zestaw z podstawowym hardsuitem
     .desc = Skrzynia zawierająca podstawowy hardsuit, dopuszczony do użytku cywilnego.
 ent-CrateEngineeringHEV = skrzynia z ekwipunkiem HEV
     .desc = Zawiera pełny kombinezon HEV oraz łom do bezpiecznego obchodzenia się z materiałami niebezpiecznymi.
+ent-CrateEngineeringTEG = skrzynia z TEG
+    .desc = Zawiera centrum TEG oraz dwa odpowiadające mu cyrkulatory.

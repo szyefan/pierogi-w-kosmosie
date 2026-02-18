@@ -1,6 +1,7 @@
-// SPDX-FileCopyrightText: 2025 jhrushbe <capnmerry@gmail.com>
-// SPDX-FileCopyrightText: 2025 rottenheadphones <juaelwe@outlook.com>
+// SPDX-FileCopyrightText: 2025 Nikita (Nick) <174215049+nikitosych@users.noreply.github.com>
 // SPDX-FileCopyrightText: 2025 taydeo <td12233a@gmail.com>
+// SPDX-FileCopyrightText: 2026 jhrushbe <capnmerry@gmail.com>
+// SPDX-FileCopyrightText: 2026 rottenheadphones <juaelwe@outlook.com>
 //
 // SPDX-License-Identifier: CC-BY-NC-SA-3.0
 
@@ -92,6 +93,8 @@ public sealed partial class TurbineWindow : FancyWindow
             if (!_suppressSliderEvents)
                 TurbineFlowRateChanged?.Invoke(TurbineFlowRateSlider.Value);
         };
+        FlowRateDecrease.OnPressed += _ => TurbineFlowRateChanged?.Invoke(TurbineFlowRateSlider.Value - 100);
+        FlowRateIncrease.OnPressed += _ => TurbineFlowRateChanged?.Invoke(TurbineFlowRateSlider.Value + 100);
 
         // Handle stator load
         TurbineStatorLoadSlider.OnValueChanged += _ =>

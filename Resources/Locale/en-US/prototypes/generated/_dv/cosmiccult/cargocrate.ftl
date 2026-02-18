@@ -4,4 +4,6 @@ ent-JugHolywater = { ent-Jug }
 ent-CrateChaplain = religious crate
     .desc = { ent-CratePlastic.desc }
 ent-CrateServiceReligious = religious supplies crate
-    .desc = Contains holy water, a bible, and a spare censer.
+    .desc = Contains holy water and a bible.
+ent-CrateScienceAnomalousContainment = anomalous containment supplies crate
+    .desc = Contains a Containment Oubliette circuit board and two A.P.E circuit boards.

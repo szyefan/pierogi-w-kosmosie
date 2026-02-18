@@ -2,9 +2,10 @@
 // SPDX-FileCopyrightText: 2024 Piras314 <p1r4s@proton.me>
 // SPDX-FileCopyrightText: 2024 Tadeo <td12233a@gmail.com>
 // SPDX-FileCopyrightText: 2024 metalgearsloth <31366439+metalgearsloth@users.noreply.github.com>
-// SPDX-FileCopyrightText: 2025 Terkala <appleorange64@gmail.com>
+// SPDX-FileCopyrightText: 2025 Nikita (Nick) <174215049+nikitosych@users.noreply.github.com>
 // SPDX-FileCopyrightText: 2025 taydeo <td12233a@gmail.com>
 // SPDX-FileCopyrightText: 2025 terkala <appleorange64@gmail.com>
+// SPDX-FileCopyrightText: 2026 Terkala <appleorange64@gmail.com>
 //
 // SPDX-License-Identifier: MIT
 
@@ -51,23 +52,21 @@ public abstract partial class SharedSalvageSystem
     };
 
     /// <summary>
-    /// Generates a Nanotrasen-style station name for a ruin map.
-    /// Format: NT[MapCode]-[SuffixCode]-[Number]
-    /// Example: NTVG-LV-427
+    /// Generates a station name for a ruin map that matches how stations are named in PDAs.
+    /// Override this in server implementation to use GameMapPrototype data.
     /// </summary>
-    private string GenerateRuinStationName(RuinMapPrototype ruinMap, System.Random rand)
+    protected virtual string GenerateRuinStationName(RuinMapPrototype ruinMap, System.Random rand)
     {
-        // Extract a 2-letter code from the map name/ID
+        // Fallback: Generate name from ruin map ID if no GameMap found (or if called from client)
         var mapCode = ruinMap.ID.Length >= 2 ? ruinMap.ID.Substring(0, 2).ToUpperInvariant() : "XX";
         
         // Nanotrasen suffix codes (same as NanotrasenNameGenerator)
         var suffixCodes = new[] { "LV", "NX", "EV", "QT", "PR" };
         var suffix = suffixCodes[rand.Next(suffixCodes.Length)];
-        
-        // Generate a random 3-digit number
         var number = rand.Next(0, 999);
+        var suffixWithNumber = $"{suffix}-{number:D3}";
         
-        return $"NT{mapCode}-{suffix}-{number:D3}";
+        return $"NT{mapCode} {suffixWithNumber}";
     }
 
     public ISalvageMagnetOffering GetSalvageOffering(int seed)

@@ -10,3 +10,5 @@ ent-ClothingOuterWinterChefBlue = blue chef's freezer coat
     .desc = A coat specifically designed for the blue team, sorely needed by blue-blooded lizard chefs.
 ent-ClothingOuterWinterMedSenior = senior physician's insulated labcoat
     .desc = A custom, medical-grade labcoat fitted with extra insulation. Smells... clean.
+ent-ClothingOuterWinterNTRFurCollar = nanotrasen representative's fur-follar coat
+    .desc = A fur-collar wool coat, made of extremely high-quality materials, built to withstand the toughest weather; like when your office's heater isn't working.

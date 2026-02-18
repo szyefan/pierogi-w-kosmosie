@@ -1,5 +1,5 @@
 ent-PaperStickyNote = sticky note
-    .desc = A sticky note, for when you want your reminders to stick
+    .desc = A sticky note, for when you want your reminders to stick. On objects, on people, anywhere you can think of!
     .suffix = yellow
 ent-PaperStickyNotePink = { ent-PaperStickyNote }
     .suffix = pink
@@ -11,8 +11,8 @@ ent-PaperStickyNoteBlue = { ent-PaperStickyNote }
     .suffix = blue
     .desc = { ent-PaperStickyNote.desc }
 ent-PaperStickyNoteStack = sticky note stack
+    .desc = A stack of sticky notes, best used for keeping track of things and of course, pranks.
     .suffix = yellow
-    .desc = { ent-BaseItem.desc }
 ent-PaperStickyNoteStackPink = sticky note stack
     .suffix = pink
     .desc = { ent-PaperStickyNoteStack.desc }
